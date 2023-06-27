@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "pIkRnK5O2hD3kpHZSsW7r/qVqwUCNyiBnUWyDpvuxv+ikqS1LLW2x69kfPth/oF69qHEnwJyXQzOgBz58Us33g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\XianXiaFightServer\\XianXiaFightServer\\XianXiaFightServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.15\\microsoft.netcore.app.host.linux-x64.6.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

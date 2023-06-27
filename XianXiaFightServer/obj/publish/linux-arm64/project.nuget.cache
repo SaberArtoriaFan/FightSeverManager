@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qLMqrNmBHSXzDYixk2yRlplSMeJDDOTYtKSlxEVF4kU7SVYgPrmg4gscgJO+ZkXV4qPylA2GvFLB+eNhe5sYDw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\XianXiaFightServer\\XianXiaFightServer\\XianXiaFightServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.linux-arm64\\6.0.15\\microsoft.netcore.app.host.linux-arm64.6.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

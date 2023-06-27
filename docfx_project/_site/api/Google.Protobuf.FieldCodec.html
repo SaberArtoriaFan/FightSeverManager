@@ -1,0 +1,1540 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class FieldCodec
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FieldCodec
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Google.Protobuf.FieldCodec">
+
+
+
+  <h1 id="Google_Protobuf_FieldCodec" data-uid="Google.Protobuf.FieldCodec" class="text-break">
+    Class FieldCodec
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Google.html">Google</a>.<a class="xref" href="Google.Protobuf.html">Protobuf</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Google.Protobuf.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class FieldCodec</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">FieldCodec</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Google_Protobuf_FieldCodec_ForBool_" data-uid="Google.Protobuf.FieldCodec.ForBool*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForBool_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForBool(System.UInt32)">
+  ForBool(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;bool&gt; ForBool(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForBool_" data-uid="Google.Protobuf.FieldCodec.ForBool*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForBool_System_UInt32_System_Boolean_" data-uid="Google.Protobuf.FieldCodec.ForBool(System.UInt32,System.Boolean)">
+  ForBool(uint, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;bool&gt; ForBool(uint tag, bool defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForBytes_" data-uid="Google.Protobuf.FieldCodec.ForBytes*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForBytes_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForBytes(System.UInt32)">
+  ForBytes(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;ByteString&gt; ForBytes(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="Google.Protobuf.ByteString.html">ByteString</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForBytes_" data-uid="Google.Protobuf.FieldCodec.ForBytes*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForBytes_System_UInt32_Google_Protobuf_ByteString_" data-uid="Google.Protobuf.FieldCodec.ForBytes(System.UInt32,Google.Protobuf.ByteString)">
+  ForBytes(uint, ByteString)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;ByteString&gt; ForBytes(uint tag, ByteString defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="Google.Protobuf.ByteString.html">ByteString</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="Google.Protobuf.ByteString.html">ByteString</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForClassWrapper_" data-uid="Google.Protobuf.FieldCodec.ForClassWrapper*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForClassWrapper__1_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForClassWrapper``1(System.UInt32)">
+  ForClassWrapper&lt;T&gt;(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;T&gt; ForClassWrapper&lt;T&gt;(uint tag) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForDouble_" data-uid="Google.Protobuf.FieldCodec.ForDouble*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForDouble_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForDouble(System.UInt32)">
+  ForDouble(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;double&gt; ForDouble(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForDouble_" data-uid="Google.Protobuf.FieldCodec.ForDouble*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForDouble_System_UInt32_System_Double_" data-uid="Google.Protobuf.FieldCodec.ForDouble(System.UInt32,System.Double)">
+  ForDouble(uint, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;double&gt; ForDouble(uint tag, double defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForEnum_" data-uid="Google.Protobuf.FieldCodec.ForEnum*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForEnum__1_System_UInt32_System_Func___0_System_Int32__System_Func_System_Int32___0__" data-uid="Google.Protobuf.FieldCodec.ForEnum``1(System.UInt32,System.Func{``0,System.Int32},System.Func{System.Int32,``0})">
+  ForEnum&lt;T&gt;(uint, Func&lt;T, int&gt;, Func&lt;int, T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;T&gt; ForEnum&lt;T&gt;(uint tag, Func&lt;T, int&gt; toInt32, Func&lt;int, T&gt; fromInt32)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>toInt32</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>fromInt32</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForEnum_" data-uid="Google.Protobuf.FieldCodec.ForEnum*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForEnum__1_System_UInt32_System_Func___0_System_Int32__System_Func_System_Int32___0____0_" data-uid="Google.Protobuf.FieldCodec.ForEnum``1(System.UInt32,System.Func{``0,System.Int32},System.Func{System.Int32,``0},``0)">
+  ForEnum&lt;T&gt;(uint, Func&lt;T, int&gt;, Func&lt;int, T&gt;, T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;T&gt; ForEnum&lt;T&gt;(uint tag, Func&lt;T, int&gt; toInt32, Func&lt;int, T&gt; fromInt32, T defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>toInt32</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>fromInt32</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, T&gt;</dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForFixed32_" data-uid="Google.Protobuf.FieldCodec.ForFixed32*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForFixed32_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForFixed32(System.UInt32)">
+  ForFixed32(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;uint&gt; ForFixed32(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForFixed32_" data-uid="Google.Protobuf.FieldCodec.ForFixed32*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForFixed32_System_UInt32_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForFixed32(System.UInt32,System.UInt32)">
+  ForFixed32(uint, uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;uint&gt; ForFixed32(uint tag, uint defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForFixed64_" data-uid="Google.Protobuf.FieldCodec.ForFixed64*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForFixed64_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForFixed64(System.UInt32)">
+  ForFixed64(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;ulong&gt; ForFixed64(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForFixed64_" data-uid="Google.Protobuf.FieldCodec.ForFixed64*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForFixed64_System_UInt32_System_UInt64_" data-uid="Google.Protobuf.FieldCodec.ForFixed64(System.UInt32,System.UInt64)">
+  ForFixed64(uint, ulong)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;ulong&gt; ForFixed64(uint tag, ulong defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForFloat_" data-uid="Google.Protobuf.FieldCodec.ForFloat*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForFloat_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForFloat(System.UInt32)">
+  ForFloat(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;float&gt; ForFloat(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForFloat_" data-uid="Google.Protobuf.FieldCodec.ForFloat*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForFloat_System_UInt32_System_Single_" data-uid="Google.Protobuf.FieldCodec.ForFloat(System.UInt32,System.Single)">
+  ForFloat(uint, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;float&gt; ForFloat(uint tag, float defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForGroup_" data-uid="Google.Protobuf.FieldCodec.ForGroup*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForGroup__1_System_UInt32_System_UInt32_Google_Protobuf_MessageParser___0__" data-uid="Google.Protobuf.FieldCodec.ForGroup``1(System.UInt32,System.UInt32,Google.Protobuf.MessageParser{``0})">
+  ForGroup&lt;T&gt;(uint, uint, MessageParser&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;T&gt; ForGroup&lt;T&gt;(uint startTag, uint endTag, MessageParser&lt;T&gt; parser) where T : class, IMessage&lt;T&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startTag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>endTag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>parser</code> <a class="xref" href="Google.Protobuf.MessageParser-1.html">MessageParser</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForInt32_" data-uid="Google.Protobuf.FieldCodec.ForInt32*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForInt32_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForInt32(System.UInt32)">
+  ForInt32(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;int&gt; ForInt32(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForInt32_" data-uid="Google.Protobuf.FieldCodec.ForInt32*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForInt32_System_UInt32_System_Int32_" data-uid="Google.Protobuf.FieldCodec.ForInt32(System.UInt32,System.Int32)">
+  ForInt32(uint, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;int&gt; ForInt32(uint tag, int defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForInt64_" data-uid="Google.Protobuf.FieldCodec.ForInt64*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForInt64_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForInt64(System.UInt32)">
+  ForInt64(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;long&gt; ForInt64(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForInt64_" data-uid="Google.Protobuf.FieldCodec.ForInt64*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForInt64_System_UInt32_System_Int64_" data-uid="Google.Protobuf.FieldCodec.ForInt64(System.UInt32,System.Int64)">
+  ForInt64(uint, long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;long&gt; ForInt64(uint tag, long defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForMessage_" data-uid="Google.Protobuf.FieldCodec.ForMessage*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForMessage__1_System_UInt32_Google_Protobuf_MessageParser___0__" data-uid="Google.Protobuf.FieldCodec.ForMessage``1(System.UInt32,Google.Protobuf.MessageParser{``0})">
+  ForMessage&lt;T&gt;(uint, MessageParser&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;T&gt; ForMessage&lt;T&gt;(uint tag, MessageParser&lt;T&gt; parser) where T : class, IMessage&lt;T&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>parser</code> <a class="xref" href="Google.Protobuf.MessageParser-1.html">MessageParser</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForSFixed32_" data-uid="Google.Protobuf.FieldCodec.ForSFixed32*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForSFixed32_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForSFixed32(System.UInt32)">
+  ForSFixed32(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;int&gt; ForSFixed32(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForSFixed32_" data-uid="Google.Protobuf.FieldCodec.ForSFixed32*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForSFixed32_System_UInt32_System_Int32_" data-uid="Google.Protobuf.FieldCodec.ForSFixed32(System.UInt32,System.Int32)">
+  ForSFixed32(uint, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;int&gt; ForSFixed32(uint tag, int defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForSFixed64_" data-uid="Google.Protobuf.FieldCodec.ForSFixed64*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForSFixed64_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForSFixed64(System.UInt32)">
+  ForSFixed64(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;long&gt; ForSFixed64(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForSFixed64_" data-uid="Google.Protobuf.FieldCodec.ForSFixed64*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForSFixed64_System_UInt32_System_Int64_" data-uid="Google.Protobuf.FieldCodec.ForSFixed64(System.UInt32,System.Int64)">
+  ForSFixed64(uint, long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;long&gt; ForSFixed64(uint tag, long defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForSInt32_" data-uid="Google.Protobuf.FieldCodec.ForSInt32*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForSInt32_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForSInt32(System.UInt32)">
+  ForSInt32(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;int&gt; ForSInt32(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForSInt32_" data-uid="Google.Protobuf.FieldCodec.ForSInt32*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForSInt32_System_UInt32_System_Int32_" data-uid="Google.Protobuf.FieldCodec.ForSInt32(System.UInt32,System.Int32)">
+  ForSInt32(uint, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;int&gt; ForSInt32(uint tag, int defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForSInt64_" data-uid="Google.Protobuf.FieldCodec.ForSInt64*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForSInt64_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForSInt64(System.UInt32)">
+  ForSInt64(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;long&gt; ForSInt64(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForSInt64_" data-uid="Google.Protobuf.FieldCodec.ForSInt64*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForSInt64_System_UInt32_System_Int64_" data-uid="Google.Protobuf.FieldCodec.ForSInt64(System.UInt32,System.Int64)">
+  ForSInt64(uint, long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;long&gt; ForSInt64(uint tag, long defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForString_" data-uid="Google.Protobuf.FieldCodec.ForString*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForString_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForString(System.UInt32)">
+  ForString(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;string&gt; ForString(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForString_" data-uid="Google.Protobuf.FieldCodec.ForString*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForString_System_UInt32_System_String_" data-uid="Google.Protobuf.FieldCodec.ForString(System.UInt32,System.String)">
+  ForString(uint, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;string&gt; ForString(uint tag, string defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForStructWrapper_" data-uid="Google.Protobuf.FieldCodec.ForStructWrapper*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForStructWrapper__1_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForStructWrapper``1(System.UInt32)">
+  ForStructWrapper&lt;T&gt;(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;T?&gt; ForStructWrapper&lt;T&gt;(uint tag) where T : struct</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;T?&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForUInt32_" data-uid="Google.Protobuf.FieldCodec.ForUInt32*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForUInt32_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForUInt32(System.UInt32)">
+  ForUInt32(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;uint&gt; ForUInt32(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForUInt32_" data-uid="Google.Protobuf.FieldCodec.ForUInt32*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForUInt32_System_UInt32_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForUInt32(System.UInt32,System.UInt32)">
+  ForUInt32(uint, uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;uint&gt; ForUInt32(uint tag, uint defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForUInt64_" data-uid="Google.Protobuf.FieldCodec.ForUInt64*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForUInt64_System_UInt32_" data-uid="Google.Protobuf.FieldCodec.ForUInt64(System.UInt32)">
+  ForUInt64(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;ulong&gt; ForUInt64(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_FieldCodec_ForUInt64_" data-uid="Google.Protobuf.FieldCodec.ForUInt64*"></a>
+
+  <h3 id="Google_Protobuf_FieldCodec_ForUInt64_System_UInt32_System_UInt64_" data-uid="Google.Protobuf.FieldCodec.ForUInt64(System.UInt32,System.UInt64)">
+  ForUInt64(uint, ulong)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldCodec&lt;ulong&gt; ForUInt64(uint tag, ulong defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.FieldCodec-1.html">FieldCodec</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,584 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class JsonUtility
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class JsonUtility
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="XianXiaFightGameServer.Tool.JsonUtility">
+
+
+
+  <h1 id="XianXiaFightGameServer_Tool_JsonUtility" data-uid="XianXiaFightGameServer.Tool.JsonUtility" class="text-break">
+    Class JsonUtility
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="XianXiaFightGameServer.html">XianXiaFightGameServer</a>.<a class="xref" href="XianXiaFightGameServer.Tool.html">Tool</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>XianXiaFightServer.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class JsonUtility</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">JsonUtility</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="XianXiaFightGameServer_Tool_JsonUtility_ApplicationPath_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.ApplicationPath*"></a>
+
+  <h3 id="XianXiaFightGameServer_Tool_JsonUtility_ApplicationPath" data-uid="XianXiaFightGameServer.Tool.JsonUtility.ApplicationPath">
+  ApplicationPath
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ApplicationPath { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="XianXiaFightGameServer_Tool_JsonUtility_ConfigurationPath_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.ConfigurationPath*"></a>
+
+  <h3 id="XianXiaFightGameServer_Tool_JsonUtility_ConfigurationPath" data-uid="XianXiaFightGameServer.Tool.JsonUtility.ConfigurationPath">
+  ConfigurationPath
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ConfigurationPath { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="XianXiaFightGameServer_Tool_JsonUtility_FightServerParameter_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.FightServerParameter*"></a>
+
+  <h3 id="XianXiaFightGameServer_Tool_JsonUtility_FightServerParameter" data-uid="XianXiaFightGameServer.Tool.JsonUtility.FightServerParameter">
+  FightServerParameter
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FightServerParameter FightServerParameter { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="XianXiaFightGameServer.Tool.FightServerParameter.html">FightServerParameter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="XianXiaFightGameServer_Tool_JsonUtility_PathSlicer_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.PathSlicer*"></a>
+
+  <h3 id="XianXiaFightGameServer_Tool_JsonUtility_PathSlicer" data-uid="XianXiaFightGameServer.Tool.JsonUtility.PathSlicer">
+  PathSlicer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static char PathSlicer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="XianXiaFightGameServer_Tool_JsonUtility_ServerInstancePath_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.ServerInstancePath*"></a>
+
+  <h3 id="XianXiaFightGameServer_Tool_JsonUtility_ServerInstancePath" data-uid="XianXiaFightGameServer.Tool.JsonUtility.ServerInstancePath">
+  ServerInstancePath
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ServerInstancePath { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="XianXiaFightGameServer_Tool_JsonUtility_UpdateResourcePath_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.UpdateResourcePath*"></a>
+
+  <h3 id="XianXiaFightGameServer_Tool_JsonUtility_UpdateResourcePath" data-uid="XianXiaFightGameServer.Tool.JsonUtility.UpdateResourcePath">
+  UpdateResourcePath
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UpdateResourcePath { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="XianXiaFightGameServer_Tool_JsonUtility_ChechFightServerInstanceAndUpdateResourcePath_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.ChechFightServerInstanceAndUpdateResourcePath*"></a>
+
+  <h3 id="XianXiaFightGameServer_Tool_JsonUtility_ChechFightServerInstanceAndUpdateResourcePath" data-uid="XianXiaFightGameServer.Tool.JsonUtility.ChechFightServerInstanceAndUpdateResourcePath">
+  ChechFightServerInstanceAndUpdateResourcePath()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ChechFightServerInstanceAndUpdateResourcePath()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XianXiaFightGameServer_Tool_JsonUtility_CreateDirectoryOrFile_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.CreateDirectoryOrFile*"></a>
+
+  <h3 id="XianXiaFightGameServer_Tool_JsonUtility_CreateDirectoryOrFile_System_String_System_Boolean_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.CreateDirectoryOrFile(System.String,System.Boolean)">
+  CreateDirectoryOrFile(string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateDirectoryOrFile(string path, bool isFile = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>isFile</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XianXiaFightGameServer_Tool_JsonUtility_GetApplicationPathAndConfigurationPath_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.GetApplicationPathAndConfigurationPath*"></a>
+
+  <h3 id="XianXiaFightGameServer_Tool_JsonUtility_GetApplicationPathAndConfigurationPath" data-uid="XianXiaFightGameServer.Tool.JsonUtility.GetApplicationPathAndConfigurationPath">
+  GetApplicationPathAndConfigurationPath()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetApplicationPathAndConfigurationPath()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XianXiaFightGameServer_Tool_JsonUtility_GetJsonFileToObject_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.GetJsonFileToObject*"></a>
+
+  <h3 id="XianXiaFightGameServer_Tool_JsonUtility_GetJsonFileToObject__1_System_String_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.GetJsonFileToObject``1(System.String)">
+  GetJsonFileToObject&lt;T&gt;(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetJsonFileToObject&lt;T&gt;(string filepath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filepath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="XianXiaFightGameServer_Tool_JsonUtility_InitConfiguration_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.InitConfiguration*"></a>
+
+  <h3 id="XianXiaFightGameServer_Tool_JsonUtility_InitConfiguration" data-uid="XianXiaFightGameServer.Tool.JsonUtility.InitConfiguration">
+  InitConfiguration()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InitConfiguration()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XianXiaFightGameServer_Tool_JsonUtility_ToJson_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.ToJson*"></a>
+
+  <h3 id="XianXiaFightGameServer_Tool_JsonUtility_ToJson_System_Object_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.ToJson(System.Object)">
+  ToJson(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>对象 转换为Json字符串</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToJson(object tablelList)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tablelList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>需要转换成Json的</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XianXiaFightGameServer_Tool_JsonUtility_WriteJsonFile_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.WriteJsonFile*"></a>
+
+  <h3 id="XianXiaFightGameServer_Tool_JsonUtility_WriteJsonFile_System_String_System_String_" data-uid="XianXiaFightGameServer.Tool.JsonUtility.WriteJsonFile(System.String,System.String)">
+  WriteJsonFile(string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>将序列化的json字符串内容写入Json文件，并且保存</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteJsonFile(string path, string jsonConents)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>路径</p>
+</dd>
+    <dt><code>jsonConents</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Json内容</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

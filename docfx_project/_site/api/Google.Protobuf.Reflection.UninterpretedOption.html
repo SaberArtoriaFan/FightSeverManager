@@ -1,0 +1,1388 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class UninterpretedOption
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class UninterpretedOption
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Google.Protobuf.Reflection.UninterpretedOption">
+
+
+
+  <h1 id="Google_Protobuf_Reflection_UninterpretedOption" data-uid="Google.Protobuf.Reflection.UninterpretedOption" class="text-break">
+    Class UninterpretedOption
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Google.html">Google</a>.<a class="xref" href="Google.Protobuf.html">Protobuf</a>.<a class="xref" href="Google.Protobuf.Reflection.html">Reflection</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Google.Protobuf.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class UninterpretedOption : IMessage&lt;UninterpretedOption&gt;, IMessage, IEquatable&lt;UninterpretedOption&gt;, IDeepCloneable&lt;UninterpretedOption&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">UninterpretedOption</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Google.Protobuf.IMessage-1.html">IMessage</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.UninterpretedOption.html">UninterpretedOption</a>&gt;</div>
+      <div><a class="xref" href="Google.Protobuf.IMessage.html">IMessage</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.UninterpretedOption.html">UninterpretedOption</a>&gt;</div>
+      <div><a class="xref" href="Google.Protobuf.IDeepCloneable-1.html">IDeepCloneable</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.UninterpretedOption.html">UninterpretedOption</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_IsInitialized_Google_Protobuf_IMessage_">MessageExtensions.IsInitialized(IMessage)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_MergeDelimitedFrom_Google_Protobuf_IMessage_System_IO_Stream_">MessageExtensions.MergeDelimitedFrom(IMessage, Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_MergeFrom_Google_Protobuf_IMessage_Google_Protobuf_ByteString_">MessageExtensions.MergeFrom(IMessage, ByteString)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_MergeFrom_Google_Protobuf_IMessage_System_Byte___System_Int32_System_Int32_">MessageExtensions.MergeFrom(IMessage, byte[], int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_MergeFrom_Google_Protobuf_IMessage_System_Byte___">MessageExtensions.MergeFrom(IMessage, byte[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_MergeFrom_Google_Protobuf_IMessage_System_IO_Stream_">MessageExtensions.MergeFrom(IMessage, Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_ToByteArray_Google_Protobuf_IMessage_">MessageExtensions.ToByteArray(IMessage)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_ToByteString_Google_Protobuf_IMessage_">MessageExtensions.ToByteString(IMessage)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_WriteDelimitedTo_Google_Protobuf_IMessage_System_IO_Stream_">MessageExtensions.WriteDelimitedTo(IMessage, Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_WriteTo_Google_Protobuf_IMessage_System_IO_Stream_">MessageExtensions.WriteTo(IMessage, Stream)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption__ctor_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.#ctor*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption__ctor" data-uid="Google.Protobuf.Reflection.UninterpretedOption.#ctor">
+  UninterpretedOption()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UninterpretedOption()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption__ctor_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.#ctor*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption__ctor_Google_Protobuf_Reflection_UninterpretedOption_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.#ctor(Google.Protobuf.Reflection.UninterpretedOption)">
+  UninterpretedOption(UninterpretedOption)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UninterpretedOption(UninterpretedOption other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Google.Protobuf.Reflection.UninterpretedOption.html">UninterpretedOption</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_AggregateValueFieldNumber" data-uid="Google.Protobuf.Reflection.UninterpretedOption.AggregateValueFieldNumber">
+  AggregateValueFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AggregateValueFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_DoubleValueFieldNumber" data-uid="Google.Protobuf.Reflection.UninterpretedOption.DoubleValueFieldNumber">
+  DoubleValueFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DoubleValueFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_IdentifierValueFieldNumber" data-uid="Google.Protobuf.Reflection.UninterpretedOption.IdentifierValueFieldNumber">
+  IdentifierValueFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IdentifierValueFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_NameFieldNumber" data-uid="Google.Protobuf.Reflection.UninterpretedOption.NameFieldNumber">
+  NameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NameFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_NegativeIntValueFieldNumber" data-uid="Google.Protobuf.Reflection.UninterpretedOption.NegativeIntValueFieldNumber">
+  NegativeIntValueFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NegativeIntValueFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_PositiveIntValueFieldNumber" data-uid="Google.Protobuf.Reflection.UninterpretedOption.PositiveIntValueFieldNumber">
+  PositiveIntValueFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PositiveIntValueFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_StringValueFieldNumber" data-uid="Google.Protobuf.Reflection.UninterpretedOption.StringValueFieldNumber">
+  StringValueFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int StringValueFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_AggregateValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.AggregateValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_AggregateValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.AggregateValue">
+  AggregateValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AggregateValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_Descriptor_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.Descriptor*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_Descriptor" data-uid="Google.Protobuf.Reflection.UninterpretedOption.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.MessageDescriptor.html">MessageDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_DoubleValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.DoubleValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_DoubleValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.DoubleValue">
+  DoubleValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DoubleValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_HasAggregateValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.HasAggregateValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_HasAggregateValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.HasAggregateValue">
+  HasAggregateValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAggregateValue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_HasDoubleValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.HasDoubleValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_HasDoubleValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.HasDoubleValue">
+  HasDoubleValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDoubleValue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_HasIdentifierValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.HasIdentifierValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_HasIdentifierValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.HasIdentifierValue">
+  HasIdentifierValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIdentifierValue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_HasNegativeIntValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.HasNegativeIntValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_HasNegativeIntValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.HasNegativeIntValue">
+  HasNegativeIntValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasNegativeIntValue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_HasPositiveIntValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.HasPositiveIntValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_HasPositiveIntValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.HasPositiveIntValue">
+  HasPositiveIntValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPositiveIntValue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_HasStringValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.HasStringValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_HasStringValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.HasStringValue">
+  HasStringValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasStringValue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_IdentifierValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.IdentifierValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_IdentifierValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.IdentifierValue">
+  IdentifierValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string IdentifierValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_Name_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.Name*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_Name" data-uid="Google.Protobuf.Reflection.UninterpretedOption.Name">
+  Name
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;UninterpretedOption.Types.NamePart&gt; Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Collections.RepeatedField-1.html">RepeatedField</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.UninterpretedOption.html">UninterpretedOption</a>.<a class="xref" href="Google.Protobuf.Reflection.UninterpretedOption.Types.html">Types</a>.<a class="xref" href="Google.Protobuf.Reflection.UninterpretedOption.Types.NamePart.html">NamePart</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_NegativeIntValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.NegativeIntValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_NegativeIntValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.NegativeIntValue">
+  NegativeIntValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long NegativeIntValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_Parser_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.Parser*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_Parser" data-uid="Google.Protobuf.Reflection.UninterpretedOption.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;UninterpretedOption&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.MessageParser-1.html">MessageParser</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.UninterpretedOption.html">UninterpretedOption</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_PositiveIntValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.PositiveIntValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_PositiveIntValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.PositiveIntValue">
+  PositiveIntValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong PositiveIntValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_StringValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.StringValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_StringValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.StringValue">
+  StringValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString StringValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.ByteString.html">ByteString</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_CalculateSize_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.CalculateSize*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_CalculateSize" data-uid="Google.Protobuf.Reflection.UninterpretedOption.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_ClearAggregateValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.ClearAggregateValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_ClearAggregateValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.ClearAggregateValue">
+  ClearAggregateValue()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAggregateValue()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_ClearDoubleValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.ClearDoubleValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_ClearDoubleValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.ClearDoubleValue">
+  ClearDoubleValue()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDoubleValue()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_ClearIdentifierValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.ClearIdentifierValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_ClearIdentifierValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.ClearIdentifierValue">
+  ClearIdentifierValue()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIdentifierValue()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_ClearNegativeIntValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.ClearNegativeIntValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_ClearNegativeIntValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.ClearNegativeIntValue">
+  ClearNegativeIntValue()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearNegativeIntValue()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_ClearPositiveIntValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.ClearPositiveIntValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_ClearPositiveIntValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.ClearPositiveIntValue">
+  ClearPositiveIntValue()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPositiveIntValue()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_ClearStringValue_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.ClearStringValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_ClearStringValue" data-uid="Google.Protobuf.Reflection.UninterpretedOption.ClearStringValue">
+  ClearStringValue()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearStringValue()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_Clone_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.Clone*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_Clone" data-uid="Google.Protobuf.Reflection.UninterpretedOption.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UninterpretedOption Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.UninterpretedOption.html">UninterpretedOption</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_Equals_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.Equals*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_Equals_Google_Protobuf_Reflection_UninterpretedOption_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.Equals(Google.Protobuf.Reflection.UninterpretedOption)">
+  Equals(UninterpretedOption)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(UninterpretedOption other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Google.Protobuf.Reflection.UninterpretedOption.html">UninterpretedOption</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_Equals_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.Equals*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_Equals_System_Object_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_GetHashCode_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.GetHashCode*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_GetHashCode" data-uid="Google.Protobuf.Reflection.UninterpretedOption.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_MergeFrom_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.MergeFrom*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <a class="xref" href="Google.Protobuf.CodedInputStream.html">CodedInputStream</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_MergeFrom_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.MergeFrom*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_MergeFrom_Google_Protobuf_Reflection_UninterpretedOption_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.MergeFrom(Google.Protobuf.Reflection.UninterpretedOption)">
+  MergeFrom(UninterpretedOption)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(UninterpretedOption other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Google.Protobuf.Reflection.UninterpretedOption.html">UninterpretedOption</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_ToString_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.ToString*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_ToString" data-uid="Google.Protobuf.Reflection.UninterpretedOption.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_UninterpretedOption_WriteTo_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.WriteTo*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_UninterpretedOption_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Google.Protobuf.Reflection.UninterpretedOption.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <a class="xref" href="Google.Protobuf.CodedOutputStream.html">CodedOutputStream</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+    "name": "XianXia.Utility",
+    "rootNamespace": "XianXia.Utility",
+    "references": [
+        "GUID:2d0270f47d1ad1e44b957623e75d284d",
+        "GUID:7c88a4a7926ee5145ad2dfa06f454c67",
+        "GUID:265ab79482be69947bd691af843e47ce",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:4ef1d3f90eb026649bba7c097fac6f46"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

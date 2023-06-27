@@ -1,0 +1,20 @@
+{
+    "name": "Saber.ECS",
+    "rootNamespace": "Saber.ECS",
+    "references": [
+        "GUID:265ab79482be69947bd691af843e47ce"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Sirenix.Serialization.dll",
+        "Sirenix.OdinInspector.Attributes.dll",
+        "DOTween.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

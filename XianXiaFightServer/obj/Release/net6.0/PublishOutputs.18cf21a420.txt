@@ -1,0 +1,6 @@
+C:\Users\Administrator\source\repos\XianXiaFightServer\XianXiaFightServer\bin\Release\net6.0\publish\XianXiaFightServer.exe
+C:\Users\Administrator\source\repos\XianXiaFightServer\XianXiaFightServer\bin\Release\net6.0\publish\XianXiaFightServer.dll
+C:\Users\Administrator\source\repos\XianXiaFightServer\XianXiaFightServer\bin\Release\net6.0\publish\XianXiaFightServer.deps.json
+C:\Users\Administrator\source\repos\XianXiaFightServer\XianXiaFightServer\bin\Release\net6.0\publish\XianXiaFightServer.runtimeconfig.json
+C:\Users\Administrator\source\repos\XianXiaFightServer\XianXiaFightServer\bin\Release\net6.0\publish\XianXiaFightServer.pdb
+C:\Users\Administrator\source\repos\XianXiaFightServer\XianXiaFightServer\bin\Release\net6.0\publish\Google.Protobuf.dll

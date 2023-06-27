@@ -1,0 +1,1799 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class FieldDescriptorProto
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FieldDescriptorProto
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Google.Protobuf.Reflection.FieldDescriptorProto">
+
+
+
+  <h1 id="Google_Protobuf_Reflection_FieldDescriptorProto" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto" class="text-break">
+    Class FieldDescriptorProto
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Google.html">Google</a>.<a class="xref" href="Google.Protobuf.html">Protobuf</a>.<a class="xref" href="Google.Protobuf.Reflection.html">Reflection</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Google.Protobuf.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class FieldDescriptorProto : IMessage&lt;FieldDescriptorProto&gt;, IMessage, IEquatable&lt;FieldDescriptorProto&gt;, IDeepCloneable&lt;FieldDescriptorProto&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">FieldDescriptorProto</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Google.Protobuf.IMessage-1.html">IMessage</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FieldDescriptorProto.html">FieldDescriptorProto</a>&gt;</div>
+      <div><a class="xref" href="Google.Protobuf.IMessage.html">IMessage</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FieldDescriptorProto.html">FieldDescriptorProto</a>&gt;</div>
+      <div><a class="xref" href="Google.Protobuf.IDeepCloneable-1.html">IDeepCloneable</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FieldDescriptorProto.html">FieldDescriptorProto</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_IsInitialized_Google_Protobuf_IMessage_">MessageExtensions.IsInitialized(IMessage)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_MergeDelimitedFrom_Google_Protobuf_IMessage_System_IO_Stream_">MessageExtensions.MergeDelimitedFrom(IMessage, Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_MergeFrom_Google_Protobuf_IMessage_Google_Protobuf_ByteString_">MessageExtensions.MergeFrom(IMessage, ByteString)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_MergeFrom_Google_Protobuf_IMessage_System_Byte___System_Int32_System_Int32_">MessageExtensions.MergeFrom(IMessage, byte[], int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_MergeFrom_Google_Protobuf_IMessage_System_Byte___">MessageExtensions.MergeFrom(IMessage, byte[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_MergeFrom_Google_Protobuf_IMessage_System_IO_Stream_">MessageExtensions.MergeFrom(IMessage, Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_ToByteArray_Google_Protobuf_IMessage_">MessageExtensions.ToByteArray(IMessage)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_ToByteString_Google_Protobuf_IMessage_">MessageExtensions.ToByteString(IMessage)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_WriteDelimitedTo_Google_Protobuf_IMessage_System_IO_Stream_">MessageExtensions.WriteDelimitedTo(IMessage, Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_WriteTo_Google_Protobuf_IMessage_System_IO_Stream_">MessageExtensions.WriteTo(IMessage, Stream)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto__ctor_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.#ctor*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto__ctor" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.#ctor">
+  FieldDescriptorProto()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FieldDescriptorProto()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto__ctor_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.#ctor*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto__ctor_Google_Protobuf_Reflection_FieldDescriptorProto_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.#ctor(Google.Protobuf.Reflection.FieldDescriptorProto)">
+  FieldDescriptorProto(FieldDescriptorProto)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FieldDescriptorProto(FieldDescriptorProto other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Google.Protobuf.Reflection.FieldDescriptorProto.html">FieldDescriptorProto</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_DefaultValueFieldNumber" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.DefaultValueFieldNumber">
+  DefaultValueFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DefaultValueFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_ExtendeeFieldNumber" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ExtendeeFieldNumber">
+  ExtendeeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExtendeeFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_JsonNameFieldNumber" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.JsonNameFieldNumber">
+  JsonNameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int JsonNameFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_LabelFieldNumber" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.LabelFieldNumber">
+  LabelFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LabelFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_NameFieldNumber" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.NameFieldNumber">
+  NameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NameFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_NumberFieldNumber" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.NumberFieldNumber">
+  NumberFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NumberFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_OneofIndexFieldNumber" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.OneofIndexFieldNumber">
+  OneofIndexFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int OneofIndexFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_OptionsFieldNumber" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.OptionsFieldNumber">
+  OptionsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int OptionsFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_TypeFieldNumber" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.TypeFieldNumber">
+  TypeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TypeFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_TypeNameFieldNumber" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.TypeNameFieldNumber">
+  TypeNameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TypeNameFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_DefaultValue_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.DefaultValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_DefaultValue" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.DefaultValue">
+  DefaultValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DefaultValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_Descriptor_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Descriptor*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_Descriptor" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.MessageDescriptor.html">MessageDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_Extendee_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Extendee*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_Extendee" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Extendee">
+  Extendee
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Extendee { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_HasDefaultValue_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasDefaultValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_HasDefaultValue" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasDefaultValue">
+  HasDefaultValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDefaultValue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_HasExtendee_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasExtendee*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_HasExtendee" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasExtendee">
+  HasExtendee
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasExtendee { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_HasJsonName_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasJsonName*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_HasJsonName" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasJsonName">
+  HasJsonName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasJsonName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_HasLabel_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasLabel*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_HasLabel" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasLabel">
+  HasLabel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLabel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_HasName_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasName*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_HasName" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasName">
+  HasName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_HasNumber_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasNumber*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_HasNumber" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasNumber">
+  HasNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasNumber { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_HasOneofIndex_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasOneofIndex*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_HasOneofIndex" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasOneofIndex">
+  HasOneofIndex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasOneofIndex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_HasOptions_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasOptions*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_HasOptions" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasOptions">
+  HasOptions
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasOptions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_HasType_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasType*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_HasType" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasType">
+  HasType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_HasTypeName_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasTypeName*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_HasTypeName" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.HasTypeName">
+  HasTypeName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTypeName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_JsonName_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.JsonName*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_JsonName" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.JsonName">
+  JsonName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string JsonName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_Label_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Label*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_Label" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Label">
+  Label
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FieldDescriptorProto.Types.Label Label { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.FieldDescriptorProto.html">FieldDescriptorProto</a>.<a class="xref" href="Google.Protobuf.Reflection.FieldDescriptorProto.Types.html">Types</a>.<a class="xref" href="Google.Protobuf.Reflection.FieldDescriptorProto.Types.Label.html">Label</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_Name_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Name*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_Name" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Name">
+  Name
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_Number_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Number*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_Number" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Number">
+  Number
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Number { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_OneofIndex_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.OneofIndex*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_OneofIndex" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.OneofIndex">
+  OneofIndex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int OneofIndex { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_Options_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Options*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_Options" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Options">
+  Options
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FieldOptions Options { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.FieldOptions.html">FieldOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_Parser_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Parser*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_Parser" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;FieldDescriptorProto&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.MessageParser-1.html">MessageParser</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FieldDescriptorProto.html">FieldDescriptorProto</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_Type_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Type*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_Type" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Type">
+  Type
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FieldDescriptorProto.Types.Type Type { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.FieldDescriptorProto.html">FieldDescriptorProto</a>.<a class="xref" href="Google.Protobuf.Reflection.FieldDescriptorProto.Types.html">Types</a>.<a class="xref" href="Google.Protobuf.Reflection.FieldDescriptorProto.Types.Type.html">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_TypeName_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.TypeName*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_TypeName" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.TypeName">
+  TypeName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TypeName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_CalculateSize_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.CalculateSize*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_CalculateSize" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearDefaultValue_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearDefaultValue*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearDefaultValue" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearDefaultValue">
+  ClearDefaultValue()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDefaultValue()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearExtendee_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearExtendee*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearExtendee" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearExtendee">
+  ClearExtendee()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearExtendee()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearJsonName_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearJsonName*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearJsonName" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearJsonName">
+  ClearJsonName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearJsonName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearLabel_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearLabel*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearLabel" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearLabel">
+  ClearLabel()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLabel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearName_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearName*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearName" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearName">
+  ClearName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearNumber_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearNumber*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearNumber" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearNumber">
+  ClearNumber()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearNumber()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearOneofIndex_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearOneofIndex*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearOneofIndex" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearOneofIndex">
+  ClearOneofIndex()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearOneofIndex()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearOptions_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearOptions*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearOptions" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearOptions">
+  ClearOptions()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearOptions()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearType_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearType*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearType" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearType">
+  ClearType()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearType()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearTypeName_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearTypeName*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_ClearTypeName" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ClearTypeName">
+  ClearTypeName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTypeName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_Clone_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Clone*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_Clone" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FieldDescriptorProto Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.FieldDescriptorProto.html">FieldDescriptorProto</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_Equals_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Equals*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_Equals_Google_Protobuf_Reflection_FieldDescriptorProto_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Equals(Google.Protobuf.Reflection.FieldDescriptorProto)">
+  Equals(FieldDescriptorProto)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(FieldDescriptorProto other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Google.Protobuf.Reflection.FieldDescriptorProto.html">FieldDescriptorProto</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_Equals_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Equals*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_Equals_System_Object_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_GetHashCode_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.GetHashCode*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_GetHashCode" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_MergeFrom_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.MergeFrom*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <a class="xref" href="Google.Protobuf.CodedInputStream.html">CodedInputStream</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_MergeFrom_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.MergeFrom*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_MergeFrom_Google_Protobuf_Reflection_FieldDescriptorProto_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.MergeFrom(Google.Protobuf.Reflection.FieldDescriptorProto)">
+  MergeFrom(FieldDescriptorProto)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(FieldDescriptorProto other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Google.Protobuf.Reflection.FieldDescriptorProto.html">FieldDescriptorProto</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_ToString_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ToString*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_ToString" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FieldDescriptorProto_WriteTo_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.WriteTo*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FieldDescriptorProto_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Google.Protobuf.Reflection.FieldDescriptorProto.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <a class="xref" href="Google.Protobuf.CodedOutputStream.html">CodedOutputStream</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

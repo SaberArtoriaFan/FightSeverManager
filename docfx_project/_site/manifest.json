@@ -1,0 +1,3482 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Administrator/source/repos/XianXiaFightServer/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.ByteString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.ByteString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.CodedInputStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.CodedInputStream.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.CodedOutputStream.OutOfSpaceException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.CodedOutputStream.OutOfSpaceException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.CodedOutputStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.CodedOutputStream.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Collections.Lists.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Collections.Lists.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Collections.MapField-2.Codec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Collections.MapField-2.Codec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Collections.MapField-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Collections.MapField-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Collections.ProtobufEqualityComparers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Collections.ProtobufEqualityComparers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Collections.RepeatedField-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Collections.RepeatedField-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Collections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Extension-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Extension-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Extension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Extension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.ExtensionRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.ExtensionRegistry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.ExtensionSet-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.ExtensionSet-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.ExtensionSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.ExtensionSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.FieldCodec-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.FieldCodec-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.FieldCodec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.FieldCodec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.ICustomDiagnosticMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.ICustomDiagnosticMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.IDeepCloneable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.IDeepCloneable-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.IExtendableMessage-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.IExtendableMessage-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.IMessage-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.IMessage-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.IMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.IMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.InvalidJsonException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.InvalidJsonException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.InvalidProtocolBufferException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.InvalidProtocolBufferException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.JsonFormatter.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.JsonFormatter.Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.JsonFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.JsonFormatter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.JsonParser.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.JsonParser.Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.JsonParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.JsonParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.MessageExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.MessageExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.MessageParser-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.MessageParser-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.MessageParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.MessageParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.ProtoPreconditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.ProtoPreconditions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.CustomOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.CustomOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.DescriptorBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.DescriptorBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.DescriptorDeclaration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.DescriptorDeclaration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.DescriptorProto.Types.ExtensionRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.DescriptorProto.Types.ExtensionRange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.DescriptorProto.Types.ReservedRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.DescriptorProto.Types.ReservedRange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.DescriptorProto.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.DescriptorProto.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.DescriptorProto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.DescriptorProto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.DescriptorReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.DescriptorReflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.DescriptorValidationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.DescriptorValidationException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.EnumDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.EnumDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.EnumDescriptorProto.Types.EnumReservedRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.EnumDescriptorProto.Types.EnumReservedRange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.EnumDescriptorProto.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.EnumDescriptorProto.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.EnumDescriptorProto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.EnumDescriptorProto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.EnumOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.EnumOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.EnumValueDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.EnumValueDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.EnumValueDescriptorProto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.EnumValueDescriptorProto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.EnumValueOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.EnumValueOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.ExtensionCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.ExtensionCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.ExtensionRangeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.ExtensionRangeOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FieldDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FieldDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FieldDescriptorProto.Types.Label.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FieldDescriptorProto.Types.Label.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FieldDescriptorProto.Types.Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FieldDescriptorProto.Types.Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FieldDescriptorProto.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FieldDescriptorProto.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FieldDescriptorProto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FieldDescriptorProto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FieldOptions.Types.CType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FieldOptions.Types.CType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FieldOptions.Types.JSType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FieldOptions.Types.JSType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FieldOptions.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FieldOptions.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FieldOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FieldOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FieldType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FieldType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FileDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FileDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FileDescriptorProto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FileDescriptorProto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FileDescriptorSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FileDescriptorSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FileOptions.Types.OptimizeMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FileOptions.Types.OptimizeMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FileOptions.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FileOptions.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.FileOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.FileOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.GeneratedClrTypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.GeneratedClrTypeInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.GeneratedCodeInfo.Types.Annotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.GeneratedCodeInfo.Types.Annotation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.GeneratedCodeInfo.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.GeneratedCodeInfo.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.GeneratedCodeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.GeneratedCodeInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.IDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.IDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.IFieldAccessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.IFieldAccessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.MessageDescriptor.FieldCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.MessageDescriptor.FieldCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.MessageDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.MessageDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.MessageOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.MessageOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.MethodDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.MethodDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.MethodDescriptorProto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.MethodDescriptorProto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.MethodOptions.Types.IdempotencyLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.MethodOptions.Types.IdempotencyLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.MethodOptions.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.MethodOptions.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.MethodOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.MethodOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.OneofAccessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.OneofAccessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.OneofDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.OneofDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.OneofDescriptorProto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.OneofDescriptorProto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.OneofOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.OneofOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.OriginalNameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.OriginalNameAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.ServiceDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.ServiceDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.ServiceDescriptorProto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.ServiceDescriptorProto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.ServiceOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.ServiceOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.SourceCodeInfo.Types.Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.SourceCodeInfo.Types.Location.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.SourceCodeInfo.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.SourceCodeInfo.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.SourceCodeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.SourceCodeInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.Syntax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.Syntax.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.TypeRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.TypeRegistry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.UninterpretedOption.Types.NamePart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.UninterpretedOption.Types.NamePart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.UninterpretedOption.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.UninterpretedOption.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.UninterpretedOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.UninterpretedOption.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.Reflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.Reflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.RepeatedExtension-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.RepeatedExtension-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.UnknownFieldSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.UnknownFieldSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Any.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Any.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.AnyReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.AnyReflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Api.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.ApiReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.ApiReflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.BoolValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.BoolValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.BytesValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.BytesValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.DoubleValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.DoubleValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Duration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Duration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.DurationReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.DurationReflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Empty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Empty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.EmptyReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.EmptyReflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.EnumValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.EnumValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Field.Types.Cardinality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Field.Types.Cardinality.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Field.Types.Kind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Field.Types.Kind.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Field.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Field.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Field.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Field.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.FieldMask.MergeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.FieldMask.MergeOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.FieldMask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.FieldMask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.FieldMaskReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.FieldMaskReflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.FloatValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.FloatValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Int32Value.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Int32Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Int64Value.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Int64Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.ListValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.ListValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Method.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Method.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Mixin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Mixin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.NullValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.NullValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Option.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.SourceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.SourceContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.SourceContextReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.SourceContextReflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.StringValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.StringValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Struct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Struct.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.StructReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.StructReflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Syntax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Syntax.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.TimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.TimeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Timestamp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Timestamp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.TimestampReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.TimestampReflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.TypeReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.TypeReflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.UInt32Value.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.UInt32Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.UInt64Value.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.UInt64Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Value.KindOneofCase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Value.KindOneofCase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.Value.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.WrappersReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.WrappersReflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WellKnownTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WellKnownTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WireFormat.WireType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WireFormat.WireType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.WireFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.WireFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.Protobuf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.Protobuf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Bson.BsonObjectId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Bson.BsonObjectId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Bson.BsonReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Bson.BsonReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Bson.BsonWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Bson.BsonWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Bson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Bson.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.ConstructorHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.ConstructorHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.BinaryConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.BinaryConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.BsonObjectIdConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.BsonObjectIdConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.CustomCreationConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.CustomCreationConverter-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.DataSetConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.DataSetConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.DataTableConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.DataTableConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.DateTimeConverterBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.DateTimeConverterBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.DiscriminatedUnionConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.DiscriminatedUnionConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.EntityKeyMemberConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.EntityKeyMemberConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.ExpandoObjectConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.ExpandoObjectConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.IsoDateTimeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.IsoDateTimeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.JavaScriptDateTimeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.JavaScriptDateTimeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.KeyValuePairConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.KeyValuePairConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.RegexConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.RegexConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.StringEnumConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.StringEnumConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.UnixDateTimeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.UnixDateTimeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.VersionConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.VersionConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.XmlNodeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.XmlNodeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.DateFormatHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.DateFormatHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.DateParseHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.DateParseHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.DateTimeZoneHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.DateTimeZoneHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.DefaultJsonNameTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.DefaultJsonNameTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.DefaultValueHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.DefaultValueHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.FloatFormatHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.FloatFormatHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.FloatParseHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.FloatParseHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Formatting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Formatting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.IArrayPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.IArrayPool-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.IJsonLineInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.IJsonLineInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonArrayAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonArrayAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonConstructorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonConstructorAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonContainerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonContainerAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonConvert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonConvert.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonConverter-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonConverterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonConverterAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonConverterCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonConverterCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonDictionaryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonDictionaryAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonExtensionDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonExtensionDataAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonIgnoreAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonIgnoreAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonNameTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonNameTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonObjectAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonObjectAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonPropertyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonPropertyAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonReader.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonReader.State.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonReaderException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonReaderException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonRequiredAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonRequiredAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonSerializationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonSerializationException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonSerializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonSerializerSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonSerializerSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonTextReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonTextReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonTextWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonTextWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonToken.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonValidatingReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonValidatingReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.JsonWriterException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.JsonWriterException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.CommentHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.CommentHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.DuplicatePropertyNameHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.DuplicatePropertyNameHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.IJEnumerable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.IJEnumerable-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JConstructor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JConstructor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JEnumerable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JEnumerable-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JPropertyDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JPropertyDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JRaw.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JRaw.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JToken.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JTokenEqualityComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JTokenEqualityComparer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JTokenReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JTokenReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JTokenType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JTokenType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JTokenWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JTokenWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JsonCloneSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JsonCloneSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JsonLoadSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JsonLoadSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JsonMergeSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JsonMergeSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.JsonSelectSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.JsonSelectSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.LineInfoHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.LineInfoHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.MergeArrayHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.MergeArrayHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.MergeNullValueHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.MergeNullValueHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Linq.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Linq.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.MemberSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.MemberSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.MetadataPropertyHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.MetadataPropertyHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.MissingMemberHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.MissingMemberHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.NullValueHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.NullValueHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.ObjectCreationHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.ObjectCreationHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.PreserveReferencesHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.PreserveReferencesHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.ReferenceLoopHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.ReferenceLoopHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Required.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Required.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Schema.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Schema.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Schema.JsonSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Schema.JsonSchema.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Schema.JsonSchemaException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Schema.JsonSchemaException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Schema.JsonSchemaGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Schema.JsonSchemaGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Schema.JsonSchemaResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Schema.JsonSchemaResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Schema.JsonSchemaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Schema.JsonSchemaType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Schema.UndefinedSchemaIdHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Schema.UndefinedSchemaIdHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Schema.ValidationEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Schema.ValidationEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Schema.ValidationEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Schema.ValidationEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Schema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Schema.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.CamelCaseNamingStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.CamelCaseNamingStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.DefaultContractResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.DefaultContractResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.DefaultNamingStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.DefaultNamingStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.DefaultSerializationBinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.DefaultSerializationBinder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.DiagnosticsTraceWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.DiagnosticsTraceWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.DynamicValueProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.DynamicValueProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.ErrorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.ErrorContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.ErrorEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.ErrorEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.ExpressionValueProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.ExpressionValueProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.ExtensionDataGetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.ExtensionDataGetter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.ExtensionDataSetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.ExtensionDataSetter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.IAttributeProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.IAttributeProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.IContractResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.IContractResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.IReferenceResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.IReferenceResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.ISerializationBinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.ISerializationBinder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.ITraceWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.ITraceWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.IValueProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.IValueProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.JsonArrayContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.JsonArrayContract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.JsonContainerContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.JsonContainerContract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.JsonContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.JsonContract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.JsonDictionaryContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.JsonDictionaryContract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.JsonDynamicContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.JsonDynamicContract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.JsonISerializableContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.JsonISerializableContract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.JsonLinqContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.JsonLinqContract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.JsonObjectContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.JsonObjectContract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.JsonPrimitiveContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.JsonPrimitiveContract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.JsonProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.JsonProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.JsonPropertyCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.JsonPropertyCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.JsonStringContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.JsonStringContract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.KebabCaseNamingStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.KebabCaseNamingStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.MemoryTraceWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.MemoryTraceWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.NamingStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.NamingStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.ObjectConstructor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.ObjectConstructor-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.OnErrorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.OnErrorAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.ReflectionAttributeProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.ReflectionAttributeProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.ReflectionValueProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.ReflectionValueProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.SerializationCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.SerializationCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.SerializationErrorCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.SerializationErrorCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.SnakeCaseNamingStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.SnakeCaseNamingStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Serialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.StringEscapeHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.StringEscapeHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.TypeNameAssemblyFormatHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.TypeNameAssemblyFormatHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.TypeNameHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.TypeNameHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.WriteState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.WriteState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Proto.ActionCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Proto.ActionCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Proto.FightProtoReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Proto.FightProtoReflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Proto.HeroAndPosPack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Proto.HeroAndPosPack.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Proto.IPAndPortPack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Proto.IPAndPortPack.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Proto.MainPack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Proto.MainPack.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Proto.NGridPack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Proto.NGridPack.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Proto.ReturnCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Proto.ReturnCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Proto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Proto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Saber.SaberDebug.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Saber.SaberDebug.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Saber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Saber.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Controller.BaseController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Controller.BaseController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Controller.ClientServerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Controller.ClientServerController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Controller.ControllerManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Controller.ControllerManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Controller.LocalController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Controller.LocalController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Controller.RequestType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Controller.RequestType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Controller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Controller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Email.MailUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Email.MailUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Email.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Email.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.FightClientToServer.ClientServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.FightClientToServer.ClientServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.FightClientToServer.ClientServerRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.FightClientToServer.ClientServerRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.FightClientToServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.FightClientToServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Local.LocalClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Local.LocalClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Local.LocalServer.UpdateResourceHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Local.LocalServer.UpdateResourceHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Local.LocalServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Local.LocalServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Local.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Local.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Log.LogInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Log.LogInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Log.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Log.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Tool.AutoProcessManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Tool.AutoProcessManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Tool.FightServerParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Tool.FightServerParameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Tool.JsonUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Tool.JsonUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Tool.ObjectPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Tool.ObjectPool-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Tool.ObjectPoolBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Tool.ObjectPoolBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Tool.PoolManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Tool.PoolManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Tool.TimerSystem.Timer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Tool.TimerSystem.Timer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Tool.TimerSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Tool.TimerSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Tool.ToolUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Tool.ToolUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XianXiaFightGameServer.Tool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XianXiaFightGameServer.Tool.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/LogInfo日志输出.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/LogInfo日志输出.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Windows调试.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Windows调试.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/可配置参数.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/可配置参数.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/如何添加Contoller.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/如何添加Contoller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

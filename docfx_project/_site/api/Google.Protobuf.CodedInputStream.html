@@ -1,0 +1,1212 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CodedInputStream
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CodedInputStream
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Google.Protobuf.CodedInputStream">
+
+
+
+  <h1 id="Google_Protobuf_CodedInputStream" data-uid="Google.Protobuf.CodedInputStream" class="text-break">
+    Class CodedInputStream
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Google.html">Google</a>.<a class="xref" href="Google.Protobuf.html">Protobuf</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Google.Protobuf.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CodedInputStream : IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CodedInputStream</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Google_Protobuf_CodedInputStream__ctor_" data-uid="Google.Protobuf.CodedInputStream.#ctor*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream__ctor_System_Byte___" data-uid="Google.Protobuf.CodedInputStream.#ctor(System.Byte[])">
+  CodedInputStream(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CodedInputStream(byte[] buffer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>buffer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream__ctor_" data-uid="Google.Protobuf.CodedInputStream.#ctor*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream__ctor_System_Byte___System_Int32_System_Int32_" data-uid="Google.Protobuf.CodedInputStream.#ctor(System.Byte[],System.Int32,System.Int32)">
+  CodedInputStream(byte[], int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CodedInputStream(byte[] buffer, int offset, int length)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>buffer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream__ctor_" data-uid="Google.Protobuf.CodedInputStream.#ctor*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream__ctor_System_IO_Stream_" data-uid="Google.Protobuf.CodedInputStream.#ctor(System.IO.Stream)">
+  CodedInputStream(Stream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CodedInputStream(Stream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream__ctor_" data-uid="Google.Protobuf.CodedInputStream.#ctor*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream__ctor_System_IO_Stream_System_Boolean_" data-uid="Google.Protobuf.CodedInputStream.#ctor(System.IO.Stream,System.Boolean)">
+  CodedInputStream(Stream, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CodedInputStream(Stream input, bool leaveOpen)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd></dd>
+    <dt><code>leaveOpen</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Google_Protobuf_CodedInputStream_IsAtEnd_" data-uid="Google.Protobuf.CodedInputStream.IsAtEnd*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_IsAtEnd" data-uid="Google.Protobuf.CodedInputStream.IsAtEnd">
+  IsAtEnd
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAtEnd { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_Position_" data-uid="Google.Protobuf.CodedInputStream.Position*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_Position" data-uid="Google.Protobuf.CodedInputStream.Position">
+  Position
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long Position { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_RecursionLimit_" data-uid="Google.Protobuf.CodedInputStream.RecursionLimit*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_RecursionLimit" data-uid="Google.Protobuf.CodedInputStream.RecursionLimit">
+  RecursionLimit
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RecursionLimit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_SizeLimit_" data-uid="Google.Protobuf.CodedInputStream.SizeLimit*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_SizeLimit" data-uid="Google.Protobuf.CodedInputStream.SizeLimit">
+  SizeLimit
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SizeLimit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Google_Protobuf_CodedInputStream_CreateWithLimits_" data-uid="Google.Protobuf.CodedInputStream.CreateWithLimits*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_CreateWithLimits_System_IO_Stream_System_Int32_System_Int32_" data-uid="Google.Protobuf.CodedInputStream.CreateWithLimits(System.IO.Stream,System.Int32,System.Int32)">
+  CreateWithLimits(Stream, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CodedInputStream CreateWithLimits(Stream input, int sizeLimit, int recursionLimit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd></dd>
+    <dt><code>sizeLimit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>recursionLimit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.CodedInputStream.html">CodedInputStream</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_Dispose_" data-uid="Google.Protobuf.CodedInputStream.Dispose*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_Dispose" data-uid="Google.Protobuf.CodedInputStream.Dispose">
+  Dispose()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_MaybeConsumeTag_" data-uid="Google.Protobuf.CodedInputStream.MaybeConsumeTag*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_MaybeConsumeTag_System_UInt32_" data-uid="Google.Protobuf.CodedInputStream.MaybeConsumeTag(System.UInt32)">
+  MaybeConsumeTag(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool MaybeConsumeTag(uint tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_PeekTag_" data-uid="Google.Protobuf.CodedInputStream.PeekTag*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_PeekTag" data-uid="Google.Protobuf.CodedInputStream.PeekTag">
+  PeekTag()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint PeekTag()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadBool_" data-uid="Google.Protobuf.CodedInputStream.ReadBool*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadBool" data-uid="Google.Protobuf.CodedInputStream.ReadBool">
+  ReadBool()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ReadBool()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadBytes_" data-uid="Google.Protobuf.CodedInputStream.ReadBytes*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadBytes" data-uid="Google.Protobuf.CodedInputStream.ReadBytes">
+  ReadBytes()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString ReadBytes()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.ByteString.html">ByteString</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadDouble_" data-uid="Google.Protobuf.CodedInputStream.ReadDouble*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadDouble" data-uid="Google.Protobuf.CodedInputStream.ReadDouble">
+  ReadDouble()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ReadDouble()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadEnum_" data-uid="Google.Protobuf.CodedInputStream.ReadEnum*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadEnum" data-uid="Google.Protobuf.CodedInputStream.ReadEnum">
+  ReadEnum()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ReadEnum()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadFixed32_" data-uid="Google.Protobuf.CodedInputStream.ReadFixed32*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadFixed32" data-uid="Google.Protobuf.CodedInputStream.ReadFixed32">
+  ReadFixed32()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ReadFixed32()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadFixed64_" data-uid="Google.Protobuf.CodedInputStream.ReadFixed64*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadFixed64" data-uid="Google.Protobuf.CodedInputStream.ReadFixed64">
+  ReadFixed64()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong ReadFixed64()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadFloat_" data-uid="Google.Protobuf.CodedInputStream.ReadFloat*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadFloat" data-uid="Google.Protobuf.CodedInputStream.ReadFloat">
+  ReadFloat()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ReadFloat()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadGroup_" data-uid="Google.Protobuf.CodedInputStream.ReadGroup*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadGroup_Google_Protobuf_IMessage_" data-uid="Google.Protobuf.CodedInputStream.ReadGroup(Google.Protobuf.IMessage)">
+  ReadGroup(IMessage)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadGroup(IMessage builder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builder</code> <a class="xref" href="Google.Protobuf.IMessage.html">IMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadInt32_" data-uid="Google.Protobuf.CodedInputStream.ReadInt32*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadInt32" data-uid="Google.Protobuf.CodedInputStream.ReadInt32">
+  ReadInt32()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ReadInt32()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadInt64_" data-uid="Google.Protobuf.CodedInputStream.ReadInt64*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadInt64" data-uid="Google.Protobuf.CodedInputStream.ReadInt64">
+  ReadInt64()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long ReadInt64()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadLength_" data-uid="Google.Protobuf.CodedInputStream.ReadLength*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadLength" data-uid="Google.Protobuf.CodedInputStream.ReadLength">
+  ReadLength()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ReadLength()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadMessage_" data-uid="Google.Protobuf.CodedInputStream.ReadMessage*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadMessage_Google_Protobuf_IMessage_" data-uid="Google.Protobuf.CodedInputStream.ReadMessage(Google.Protobuf.IMessage)">
+  ReadMessage(IMessage)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadMessage(IMessage builder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builder</code> <a class="xref" href="Google.Protobuf.IMessage.html">IMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadSFixed32_" data-uid="Google.Protobuf.CodedInputStream.ReadSFixed32*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadSFixed32" data-uid="Google.Protobuf.CodedInputStream.ReadSFixed32">
+  ReadSFixed32()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ReadSFixed32()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadSFixed64_" data-uid="Google.Protobuf.CodedInputStream.ReadSFixed64*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadSFixed64" data-uid="Google.Protobuf.CodedInputStream.ReadSFixed64">
+  ReadSFixed64()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long ReadSFixed64()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadSInt32_" data-uid="Google.Protobuf.CodedInputStream.ReadSInt32*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadSInt32" data-uid="Google.Protobuf.CodedInputStream.ReadSInt32">
+  ReadSInt32()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ReadSInt32()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadSInt64_" data-uid="Google.Protobuf.CodedInputStream.ReadSInt64*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadSInt64" data-uid="Google.Protobuf.CodedInputStream.ReadSInt64">
+  ReadSInt64()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long ReadSInt64()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadString_" data-uid="Google.Protobuf.CodedInputStream.ReadString*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadString" data-uid="Google.Protobuf.CodedInputStream.ReadString">
+  ReadString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ReadString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadTag_" data-uid="Google.Protobuf.CodedInputStream.ReadTag*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadTag" data-uid="Google.Protobuf.CodedInputStream.ReadTag">
+  ReadTag()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ReadTag()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadUInt32_" data-uid="Google.Protobuf.CodedInputStream.ReadUInt32*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadUInt32" data-uid="Google.Protobuf.CodedInputStream.ReadUInt32">
+  ReadUInt32()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ReadUInt32()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_ReadUInt64_" data-uid="Google.Protobuf.CodedInputStream.ReadUInt64*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_ReadUInt64" data-uid="Google.Protobuf.CodedInputStream.ReadUInt64">
+  ReadUInt64()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong ReadUInt64()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_CodedInputStream_SkipLastField_" data-uid="Google.Protobuf.CodedInputStream.SkipLastField*"></a>
+
+  <h3 id="Google_Protobuf_CodedInputStream_SkipLastField" data-uid="Google.Protobuf.CodedInputStream.SkipLastField">
+  SkipLastField()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SkipLastField()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

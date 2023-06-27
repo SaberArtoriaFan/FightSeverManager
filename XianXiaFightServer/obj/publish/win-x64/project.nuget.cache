@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1W/++usZQauuxm98wZj2C18NDwYx7puKGlJSKALKwvVe8gCgNUEY+X9/mwYSFcbg3lvFSBa+2QWmwA9EaN/wCw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\XianXiaFightServer\\XianXiaFightServer\\XianXiaFightServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

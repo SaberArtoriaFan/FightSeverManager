@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Windows调试 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Windows调试 ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="windows调试">Windows调试</h1>
+
+<h2 id="1与linux不同">1.与Linux不同</h2>
+<p>Linux开启后默认自动连接后端服务器，并且关闭调试接口</p>
+<h2 id="2commondutility">2.CommondUtility</h2>
+<h3 id="21如何添加调试指令">2.1如何添加调试指令</h3>
+<pre><code class="lang-CSharp">namespace XianXiaFightGameServer.Tool
+{
+    internal static class CommondUtility
+    {
+        private static void CLS(string s)
+        {
+            Console.Clear();
+        }
+        private static void Kill(string s)
+        {
+            int id= Convert.ToInt32(s);
+            if(InstanceFinder.GetInstance&lt;LocalServer&gt;().AllProcessNameDict.TryGetValue(id, out var process)) 
+            { 
+                process.Kill();
+            }
+        }
+    }
+}
+</code></pre>
+<p>在<strong>CommondUtility</strong>类中添加指令函数（例如：CLS），该函数必须为<strong>静态</strong>，<strong>无返回值</strong>，<strong>参数</strong>有且只能有一个<strong>string</strong></p>
+<h3 id="22如何调试">2.2如何调试</h3>
+<p>在Windows平台上启动程序，在命令行窗口中输入<strong>-指令函数名</strong>,如果该指令有接收参数则<strong>空格后输入参数</strong><br>
+例如：</p>
+<blockquote>
+<p>-CLS</p>
+<p>-Kill 9988</p>
+<p>-InitServer 192.168.2.20,8885</p>
+</blockquote>
+<p><strong>注意</strong>：命令指令并不严格区分大小写</p>
+<blockquote>
+<p>-iNitserveR 192.168.2.20,8885</p>
+</blockquote>
+<p>以上指令同时生效，所以请避免在CommondUtility类中出现大小写不分后<strong>同名</strong>的指令函数（例如不要同时出现&quot;CLS&quot;与&quot;cls&quot;）</p>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+    "name": "Saber.Camp",
+    "rootNamespace": "",
+    "references": [
+        "GUID:265ab79482be69947bd691af843e47ce"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

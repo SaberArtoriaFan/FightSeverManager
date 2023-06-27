@@ -1,0 +1,694 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MessageDescriptor
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MessageDescriptor
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Google.Protobuf.Reflection.MessageDescriptor">
+
+
+
+  <h1 id="Google_Protobuf_Reflection_MessageDescriptor" data-uid="Google.Protobuf.Reflection.MessageDescriptor" class="text-break">
+    Class MessageDescriptor
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Google.html">Google</a>.<a class="xref" href="Google.Protobuf.html">Protobuf</a>.<a class="xref" href="Google.Protobuf.Reflection.html">Reflection</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Google.Protobuf.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class MessageDescriptor : DescriptorBase, IDescriptor</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Google.Protobuf.Reflection.DescriptorBase.html">DescriptorBase</a></div>
+      <div><span class="xref">MessageDescriptor</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Google.Protobuf.Reflection.IDescriptor.html">IDescriptor</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Google.Protobuf.Reflection.DescriptorBase.html#Google_Protobuf_Reflection_DescriptorBase_Index">DescriptorBase.Index</a>
+    </div>
+    <div>
+      <a class="xref" href="Google.Protobuf.Reflection.DescriptorBase.html#Google_Protobuf_Reflection_DescriptorBase_FullName">DescriptorBase.FullName</a>
+    </div>
+    <div>
+      <a class="xref" href="Google.Protobuf.Reflection.DescriptorBase.html#Google_Protobuf_Reflection_DescriptorBase_File">DescriptorBase.File</a>
+    </div>
+    <div>
+      <a class="xref" href="Google.Protobuf.Reflection.DescriptorBase.html#Google_Protobuf_Reflection_DescriptorBase_Declaration">DescriptorBase.Declaration</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Google_Protobuf_Reflection_MessageDescriptor_ClrType_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.ClrType*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_MessageDescriptor_ClrType" data-uid="Google.Protobuf.Reflection.MessageDescriptor.ClrType">
+  ClrType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Type ClrType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_MessageDescriptor_ContainingType_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.ContainingType*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_MessageDescriptor_ContainingType" data-uid="Google.Protobuf.Reflection.MessageDescriptor.ContainingType">
+  ContainingType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MessageDescriptor ContainingType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.MessageDescriptor.html">MessageDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_MessageDescriptor_CustomOptions_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.CustomOptions*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_MessageDescriptor_CustomOptions" data-uid="Google.Protobuf.Reflection.MessageDescriptor.CustomOptions">
+  CustomOptions
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;CustomOptions are obsolete. Use GetOption&quot;)]
+public CustomOptions CustomOptions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.CustomOptions.html">CustomOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_MessageDescriptor_EnumTypes_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.EnumTypes*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_MessageDescriptor_EnumTypes" data-uid="Google.Protobuf.Reflection.MessageDescriptor.EnumTypes">
+  EnumTypes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;EnumDescriptor&gt; EnumTypes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.EnumDescriptor.html">EnumDescriptor</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_MessageDescriptor_Extensions_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.Extensions*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_MessageDescriptor_Extensions" data-uid="Google.Protobuf.Reflection.MessageDescriptor.Extensions">
+  Extensions
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExtensionCollection Extensions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.ExtensionCollection.html">ExtensionCollection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_MessageDescriptor_Fields_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.Fields*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_MessageDescriptor_Fields" data-uid="Google.Protobuf.Reflection.MessageDescriptor.Fields">
+  Fields
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MessageDescriptor.FieldCollection Fields { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.MessageDescriptor.html">MessageDescriptor</a>.<a class="xref" href="Google.Protobuf.Reflection.MessageDescriptor.FieldCollection.html">FieldCollection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_MessageDescriptor_Name_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.Name*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_MessageDescriptor_Name" data-uid="Google.Protobuf.Reflection.MessageDescriptor.Name">
+  Name
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_MessageDescriptor_NestedTypes_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.NestedTypes*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_MessageDescriptor_NestedTypes" data-uid="Google.Protobuf.Reflection.MessageDescriptor.NestedTypes">
+  NestedTypes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;MessageDescriptor&gt; NestedTypes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.MessageDescriptor.html">MessageDescriptor</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_MessageDescriptor_Oneofs_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.Oneofs*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_MessageDescriptor_Oneofs" data-uid="Google.Protobuf.Reflection.MessageDescriptor.Oneofs">
+  Oneofs
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;OneofDescriptor&gt; Oneofs { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.OneofDescriptor.html">OneofDescriptor</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_MessageDescriptor_Parser_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.Parser*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_MessageDescriptor_Parser" data-uid="Google.Protobuf.Reflection.MessageDescriptor.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MessageParser Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.MessageParser.html">MessageParser</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Google_Protobuf_Reflection_MessageDescriptor_FindDescriptor_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.FindDescriptor*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_MessageDescriptor_FindDescriptor__1_System_String_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.FindDescriptor``1(System.String)">
+  FindDescriptor&lt;T&gt;(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T FindDescriptor&lt;T&gt;(string name) where T : class, IDescriptor</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_MessageDescriptor_FindFieldByName_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.FindFieldByName*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_MessageDescriptor_FindFieldByName_System_String_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.FindFieldByName(System.String)">
+  FindFieldByName(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FieldDescriptor FindFieldByName(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.FieldDescriptor.html">FieldDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_MessageDescriptor_FindFieldByNumber_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.FindFieldByNumber*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_MessageDescriptor_FindFieldByNumber_System_Int32_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.FindFieldByNumber(System.Int32)">
+  FindFieldByNumber(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FieldDescriptor FindFieldByNumber(int number)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>number</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.FieldDescriptor.html">FieldDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_MessageDescriptor_GetOption_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.GetOption*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_MessageDescriptor_GetOption__1_Google_Protobuf_Extension_Google_Protobuf_Reflection_MessageOptions___0__" data-uid="Google.Protobuf.Reflection.MessageDescriptor.GetOption``1(Google.Protobuf.Extension{Google.Protobuf.Reflection.MessageOptions,``0})">
+  GetOption&lt;T&gt;(Extension&lt;MessageOptions, T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetOption&lt;T&gt;(Extension&lt;MessageOptions, T&gt; extension)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <a class="xref" href="Google.Protobuf.Extension-2.html">Extension</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.MessageOptions.html">MessageOptions</a>, T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_MessageDescriptor_GetOption_" data-uid="Google.Protobuf.Reflection.MessageDescriptor.GetOption*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_MessageDescriptor_GetOption__1_Google_Protobuf_RepeatedExtension_Google_Protobuf_Reflection_MessageOptions___0__" data-uid="Google.Protobuf.Reflection.MessageDescriptor.GetOption``1(Google.Protobuf.RepeatedExtension{Google.Protobuf.Reflection.MessageOptions,``0})">
+  GetOption&lt;T&gt;(RepeatedExtension&lt;MessageOptions, T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;T&gt; GetOption&lt;T&gt;(RepeatedExtension&lt;MessageOptions, T&gt; extension)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <a class="xref" href="Google.Protobuf.RepeatedExtension-2.html">RepeatedExtension</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.MessageOptions.html">MessageOptions</a>, T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Collections.RepeatedField-1.html">RepeatedField</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

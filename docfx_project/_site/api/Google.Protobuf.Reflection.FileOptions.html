@@ -1,0 +1,3318 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class FileOptions
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FileOptions
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Google.Protobuf.Reflection.FileOptions">
+
+
+
+  <h1 id="Google_Protobuf_Reflection_FileOptions" data-uid="Google.Protobuf.Reflection.FileOptions" class="text-break">
+    Class FileOptions
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Google.html">Google</a>.<a class="xref" href="Google.Protobuf.html">Protobuf</a>.<a class="xref" href="Google.Protobuf.Reflection.html">Reflection</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Google.Protobuf.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class FileOptions : IExtendableMessage&lt;FileOptions&gt;, IMessage&lt;FileOptions&gt;, IMessage, IEquatable&lt;FileOptions&gt;, IDeepCloneable&lt;FileOptions&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">FileOptions</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Google.Protobuf.IExtendableMessage-1.html">IExtendableMessage</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a>&gt;</div>
+      <div><a class="xref" href="Google.Protobuf.IMessage-1.html">IMessage</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a>&gt;</div>
+      <div><a class="xref" href="Google.Protobuf.IMessage.html">IMessage</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a>&gt;</div>
+      <div><a class="xref" href="Google.Protobuf.IDeepCloneable-1.html">IDeepCloneable</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_IsInitialized_Google_Protobuf_IMessage_">MessageExtensions.IsInitialized(IMessage)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_MergeDelimitedFrom_Google_Protobuf_IMessage_System_IO_Stream_">MessageExtensions.MergeDelimitedFrom(IMessage, Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_MergeFrom_Google_Protobuf_IMessage_Google_Protobuf_ByteString_">MessageExtensions.MergeFrom(IMessage, ByteString)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_MergeFrom_Google_Protobuf_IMessage_System_Byte___System_Int32_System_Int32_">MessageExtensions.MergeFrom(IMessage, byte[], int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_MergeFrom_Google_Protobuf_IMessage_System_Byte___">MessageExtensions.MergeFrom(IMessage, byte[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_MergeFrom_Google_Protobuf_IMessage_System_IO_Stream_">MessageExtensions.MergeFrom(IMessage, Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_ToByteArray_Google_Protobuf_IMessage_">MessageExtensions.ToByteArray(IMessage)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_ToByteString_Google_Protobuf_IMessage_">MessageExtensions.ToByteString(IMessage)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_WriteDelimitedTo_Google_Protobuf_IMessage_System_IO_Stream_">MessageExtensions.WriteDelimitedTo(IMessage, Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="Google.Protobuf.MessageExtensions.html#Google_Protobuf_MessageExtensions_WriteTo_Google_Protobuf_IMessage_System_IO_Stream_">MessageExtensions.WriteTo(IMessage, Stream)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions__ctor_" data-uid="Google.Protobuf.Reflection.FileOptions.#ctor*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions__ctor" data-uid="Google.Protobuf.Reflection.FileOptions.#ctor">
+  FileOptions()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileOptions()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions__ctor_" data-uid="Google.Protobuf.Reflection.FileOptions.#ctor*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions__ctor_Google_Protobuf_Reflection_FileOptions_" data-uid="Google.Protobuf.Reflection.FileOptions.#ctor(Google.Protobuf.Reflection.FileOptions)">
+  FileOptions(FileOptions)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileOptions(FileOptions other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_CcEnableArenasFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.CcEnableArenasFieldNumber">
+  CcEnableArenasFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CcEnableArenasFieldNumber = 31</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_CcGenericServicesFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.CcGenericServicesFieldNumber">
+  CcGenericServicesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CcGenericServicesFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_CsharpNamespaceFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.CsharpNamespaceFieldNumber">
+  CsharpNamespaceFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CsharpNamespaceFieldNumber = 37</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_DeprecatedFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.DeprecatedFieldNumber">
+  DeprecatedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DeprecatedFieldNumber = 23</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_GoPackageFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.GoPackageFieldNumber">
+  GoPackageFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GoPackageFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_JavaGenerateEqualsAndHashFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.JavaGenerateEqualsAndHashFieldNumber">
+  JavaGenerateEqualsAndHashFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int JavaGenerateEqualsAndHashFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_JavaGenericServicesFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.JavaGenericServicesFieldNumber">
+  JavaGenericServicesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int JavaGenericServicesFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_JavaMultipleFilesFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.JavaMultipleFilesFieldNumber">
+  JavaMultipleFilesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int JavaMultipleFilesFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_JavaOuterClassnameFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.JavaOuterClassnameFieldNumber">
+  JavaOuterClassnameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int JavaOuterClassnameFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_JavaPackageFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.JavaPackageFieldNumber">
+  JavaPackageFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int JavaPackageFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_JavaStringCheckUtf8FieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.JavaStringCheckUtf8FieldNumber">
+  JavaStringCheckUtf8FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int JavaStringCheckUtf8FieldNumber = 27</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ObjcClassPrefixFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.ObjcClassPrefixFieldNumber">
+  ObjcClassPrefixFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ObjcClassPrefixFieldNumber = 36</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_OptimizeForFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.OptimizeForFieldNumber">
+  OptimizeForFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int OptimizeForFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_PhpClassPrefixFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.PhpClassPrefixFieldNumber">
+  PhpClassPrefixFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PhpClassPrefixFieldNumber = 40</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_PhpGenericServicesFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.PhpGenericServicesFieldNumber">
+  PhpGenericServicesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PhpGenericServicesFieldNumber = 42</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_PhpMetadataNamespaceFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.PhpMetadataNamespaceFieldNumber">
+  PhpMetadataNamespaceFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PhpMetadataNamespaceFieldNumber = 44</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_PhpNamespaceFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.PhpNamespaceFieldNumber">
+  PhpNamespaceFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PhpNamespaceFieldNumber = 41</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_PyGenericServicesFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.PyGenericServicesFieldNumber">
+  PyGenericServicesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PyGenericServicesFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_RubyPackageFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.RubyPackageFieldNumber">
+  RubyPackageFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RubyPackageFieldNumber = 45</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_SwiftPrefixFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.SwiftPrefixFieldNumber">
+  SwiftPrefixFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SwiftPrefixFieldNumber = 39</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_UninterpretedOptionFieldNumber" data-uid="Google.Protobuf.Reflection.FileOptions.UninterpretedOptionFieldNumber">
+  UninterpretedOptionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UninterpretedOptionFieldNumber = 999</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_CcEnableArenas_" data-uid="Google.Protobuf.Reflection.FileOptions.CcEnableArenas*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_CcEnableArenas" data-uid="Google.Protobuf.Reflection.FileOptions.CcEnableArenas">
+  CcEnableArenas
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CcEnableArenas { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_CcGenericServices_" data-uid="Google.Protobuf.Reflection.FileOptions.CcGenericServices*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_CcGenericServices" data-uid="Google.Protobuf.Reflection.FileOptions.CcGenericServices">
+  CcGenericServices
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CcGenericServices { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_CsharpNamespace_" data-uid="Google.Protobuf.Reflection.FileOptions.CsharpNamespace*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_CsharpNamespace" data-uid="Google.Protobuf.Reflection.FileOptions.CsharpNamespace">
+  CsharpNamespace
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CsharpNamespace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_Deprecated_" data-uid="Google.Protobuf.Reflection.FileOptions.Deprecated*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_Deprecated" data-uid="Google.Protobuf.Reflection.FileOptions.Deprecated">
+  Deprecated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Deprecated { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_Descriptor_" data-uid="Google.Protobuf.Reflection.FileOptions.Descriptor*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_Descriptor" data-uid="Google.Protobuf.Reflection.FileOptions.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.MessageDescriptor.html">MessageDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_GoPackage_" data-uid="Google.Protobuf.Reflection.FileOptions.GoPackage*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_GoPackage" data-uid="Google.Protobuf.Reflection.FileOptions.GoPackage">
+  GoPackage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GoPackage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasCcEnableArenas_" data-uid="Google.Protobuf.Reflection.FileOptions.HasCcEnableArenas*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasCcEnableArenas" data-uid="Google.Protobuf.Reflection.FileOptions.HasCcEnableArenas">
+  HasCcEnableArenas
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCcEnableArenas { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasCcGenericServices_" data-uid="Google.Protobuf.Reflection.FileOptions.HasCcGenericServices*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasCcGenericServices" data-uid="Google.Protobuf.Reflection.FileOptions.HasCcGenericServices">
+  HasCcGenericServices
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCcGenericServices { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasCsharpNamespace_" data-uid="Google.Protobuf.Reflection.FileOptions.HasCsharpNamespace*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasCsharpNamespace" data-uid="Google.Protobuf.Reflection.FileOptions.HasCsharpNamespace">
+  HasCsharpNamespace
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCsharpNamespace { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasDeprecated_" data-uid="Google.Protobuf.Reflection.FileOptions.HasDeprecated*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasDeprecated" data-uid="Google.Protobuf.Reflection.FileOptions.HasDeprecated">
+  HasDeprecated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDeprecated { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasGoPackage_" data-uid="Google.Protobuf.Reflection.FileOptions.HasGoPackage*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasGoPackage" data-uid="Google.Protobuf.Reflection.FileOptions.HasGoPackage">
+  HasGoPackage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGoPackage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasJavaGenerateEqualsAndHash_" data-uid="Google.Protobuf.Reflection.FileOptions.HasJavaGenerateEqualsAndHash*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasJavaGenerateEqualsAndHash" data-uid="Google.Protobuf.Reflection.FileOptions.HasJavaGenerateEqualsAndHash">
+  HasJavaGenerateEqualsAndHash
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public bool HasJavaGenerateEqualsAndHash { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasJavaGenericServices_" data-uid="Google.Protobuf.Reflection.FileOptions.HasJavaGenericServices*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasJavaGenericServices" data-uid="Google.Protobuf.Reflection.FileOptions.HasJavaGenericServices">
+  HasJavaGenericServices
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasJavaGenericServices { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasJavaMultipleFiles_" data-uid="Google.Protobuf.Reflection.FileOptions.HasJavaMultipleFiles*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasJavaMultipleFiles" data-uid="Google.Protobuf.Reflection.FileOptions.HasJavaMultipleFiles">
+  HasJavaMultipleFiles
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasJavaMultipleFiles { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasJavaOuterClassname_" data-uid="Google.Protobuf.Reflection.FileOptions.HasJavaOuterClassname*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasJavaOuterClassname" data-uid="Google.Protobuf.Reflection.FileOptions.HasJavaOuterClassname">
+  HasJavaOuterClassname
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasJavaOuterClassname { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasJavaPackage_" data-uid="Google.Protobuf.Reflection.FileOptions.HasJavaPackage*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasJavaPackage" data-uid="Google.Protobuf.Reflection.FileOptions.HasJavaPackage">
+  HasJavaPackage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasJavaPackage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasJavaStringCheckUtf8_" data-uid="Google.Protobuf.Reflection.FileOptions.HasJavaStringCheckUtf8*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasJavaStringCheckUtf8" data-uid="Google.Protobuf.Reflection.FileOptions.HasJavaStringCheckUtf8">
+  HasJavaStringCheckUtf8
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasJavaStringCheckUtf8 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasObjcClassPrefix_" data-uid="Google.Protobuf.Reflection.FileOptions.HasObjcClassPrefix*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasObjcClassPrefix" data-uid="Google.Protobuf.Reflection.FileOptions.HasObjcClassPrefix">
+  HasObjcClassPrefix
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasObjcClassPrefix { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasOptimizeFor_" data-uid="Google.Protobuf.Reflection.FileOptions.HasOptimizeFor*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasOptimizeFor" data-uid="Google.Protobuf.Reflection.FileOptions.HasOptimizeFor">
+  HasOptimizeFor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasOptimizeFor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasPhpClassPrefix_" data-uid="Google.Protobuf.Reflection.FileOptions.HasPhpClassPrefix*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasPhpClassPrefix" data-uid="Google.Protobuf.Reflection.FileOptions.HasPhpClassPrefix">
+  HasPhpClassPrefix
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPhpClassPrefix { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasPhpGenericServices_" data-uid="Google.Protobuf.Reflection.FileOptions.HasPhpGenericServices*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasPhpGenericServices" data-uid="Google.Protobuf.Reflection.FileOptions.HasPhpGenericServices">
+  HasPhpGenericServices
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPhpGenericServices { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasPhpMetadataNamespace_" data-uid="Google.Protobuf.Reflection.FileOptions.HasPhpMetadataNamespace*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasPhpMetadataNamespace" data-uid="Google.Protobuf.Reflection.FileOptions.HasPhpMetadataNamespace">
+  HasPhpMetadataNamespace
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPhpMetadataNamespace { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasPhpNamespace_" data-uid="Google.Protobuf.Reflection.FileOptions.HasPhpNamespace*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasPhpNamespace" data-uid="Google.Protobuf.Reflection.FileOptions.HasPhpNamespace">
+  HasPhpNamespace
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPhpNamespace { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasPyGenericServices_" data-uid="Google.Protobuf.Reflection.FileOptions.HasPyGenericServices*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasPyGenericServices" data-uid="Google.Protobuf.Reflection.FileOptions.HasPyGenericServices">
+  HasPyGenericServices
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPyGenericServices { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasRubyPackage_" data-uid="Google.Protobuf.Reflection.FileOptions.HasRubyPackage*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasRubyPackage" data-uid="Google.Protobuf.Reflection.FileOptions.HasRubyPackage">
+  HasRubyPackage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRubyPackage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasSwiftPrefix_" data-uid="Google.Protobuf.Reflection.FileOptions.HasSwiftPrefix*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasSwiftPrefix" data-uid="Google.Protobuf.Reflection.FileOptions.HasSwiftPrefix">
+  HasSwiftPrefix
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSwiftPrefix { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_JavaGenerateEqualsAndHash_" data-uid="Google.Protobuf.Reflection.FileOptions.JavaGenerateEqualsAndHash*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_JavaGenerateEqualsAndHash" data-uid="Google.Protobuf.Reflection.FileOptions.JavaGenerateEqualsAndHash">
+  JavaGenerateEqualsAndHash
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public bool JavaGenerateEqualsAndHash { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_JavaGenericServices_" data-uid="Google.Protobuf.Reflection.FileOptions.JavaGenericServices*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_JavaGenericServices" data-uid="Google.Protobuf.Reflection.FileOptions.JavaGenericServices">
+  JavaGenericServices
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool JavaGenericServices { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_JavaMultipleFiles_" data-uid="Google.Protobuf.Reflection.FileOptions.JavaMultipleFiles*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_JavaMultipleFiles" data-uid="Google.Protobuf.Reflection.FileOptions.JavaMultipleFiles">
+  JavaMultipleFiles
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool JavaMultipleFiles { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_JavaOuterClassname_" data-uid="Google.Protobuf.Reflection.FileOptions.JavaOuterClassname*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_JavaOuterClassname" data-uid="Google.Protobuf.Reflection.FileOptions.JavaOuterClassname">
+  JavaOuterClassname
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string JavaOuterClassname { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_JavaPackage_" data-uid="Google.Protobuf.Reflection.FileOptions.JavaPackage*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_JavaPackage" data-uid="Google.Protobuf.Reflection.FileOptions.JavaPackage">
+  JavaPackage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string JavaPackage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_JavaStringCheckUtf8_" data-uid="Google.Protobuf.Reflection.FileOptions.JavaStringCheckUtf8*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_JavaStringCheckUtf8" data-uid="Google.Protobuf.Reflection.FileOptions.JavaStringCheckUtf8">
+  JavaStringCheckUtf8
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool JavaStringCheckUtf8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ObjcClassPrefix_" data-uid="Google.Protobuf.Reflection.FileOptions.ObjcClassPrefix*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ObjcClassPrefix" data-uid="Google.Protobuf.Reflection.FileOptions.ObjcClassPrefix">
+  ObjcClassPrefix
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ObjcClassPrefix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_OptimizeFor_" data-uid="Google.Protobuf.Reflection.FileOptions.OptimizeFor*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_OptimizeFor" data-uid="Google.Protobuf.Reflection.FileOptions.OptimizeFor">
+  OptimizeFor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileOptions.Types.OptimizeMode OptimizeFor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a>.<a class="xref" href="Google.Protobuf.Reflection.FileOptions.Types.html">Types</a>.<a class="xref" href="Google.Protobuf.Reflection.FileOptions.Types.OptimizeMode.html">OptimizeMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_Parser_" data-uid="Google.Protobuf.Reflection.FileOptions.Parser*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_Parser" data-uid="Google.Protobuf.Reflection.FileOptions.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;FileOptions&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.MessageParser-1.html">MessageParser</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_PhpClassPrefix_" data-uid="Google.Protobuf.Reflection.FileOptions.PhpClassPrefix*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_PhpClassPrefix" data-uid="Google.Protobuf.Reflection.FileOptions.PhpClassPrefix">
+  PhpClassPrefix
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PhpClassPrefix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_PhpGenericServices_" data-uid="Google.Protobuf.Reflection.FileOptions.PhpGenericServices*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_PhpGenericServices" data-uid="Google.Protobuf.Reflection.FileOptions.PhpGenericServices">
+  PhpGenericServices
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PhpGenericServices { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_PhpMetadataNamespace_" data-uid="Google.Protobuf.Reflection.FileOptions.PhpMetadataNamespace*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_PhpMetadataNamespace" data-uid="Google.Protobuf.Reflection.FileOptions.PhpMetadataNamespace">
+  PhpMetadataNamespace
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PhpMetadataNamespace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_PhpNamespace_" data-uid="Google.Protobuf.Reflection.FileOptions.PhpNamespace*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_PhpNamespace" data-uid="Google.Protobuf.Reflection.FileOptions.PhpNamespace">
+  PhpNamespace
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PhpNamespace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_PyGenericServices_" data-uid="Google.Protobuf.Reflection.FileOptions.PyGenericServices*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_PyGenericServices" data-uid="Google.Protobuf.Reflection.FileOptions.PyGenericServices">
+  PyGenericServices
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PyGenericServices { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_RubyPackage_" data-uid="Google.Protobuf.Reflection.FileOptions.RubyPackage*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_RubyPackage" data-uid="Google.Protobuf.Reflection.FileOptions.RubyPackage">
+  RubyPackage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RubyPackage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_SwiftPrefix_" data-uid="Google.Protobuf.Reflection.FileOptions.SwiftPrefix*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_SwiftPrefix" data-uid="Google.Protobuf.Reflection.FileOptions.SwiftPrefix">
+  SwiftPrefix
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SwiftPrefix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_UninterpretedOption_" data-uid="Google.Protobuf.Reflection.FileOptions.UninterpretedOption*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_UninterpretedOption" data-uid="Google.Protobuf.Reflection.FileOptions.UninterpretedOption">
+  UninterpretedOption
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;UninterpretedOption&gt; UninterpretedOption { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Collections.RepeatedField-1.html">RepeatedField</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.UninterpretedOption.html">UninterpretedOption</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_CalculateSize_" data-uid="Google.Protobuf.Reflection.FileOptions.CalculateSize*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_CalculateSize" data-uid="Google.Protobuf.Reflection.FileOptions.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearCcEnableArenas_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearCcEnableArenas*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearCcEnableArenas" data-uid="Google.Protobuf.Reflection.FileOptions.ClearCcEnableArenas">
+  ClearCcEnableArenas()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCcEnableArenas()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearCcGenericServices_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearCcGenericServices*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearCcGenericServices" data-uid="Google.Protobuf.Reflection.FileOptions.ClearCcGenericServices">
+  ClearCcGenericServices()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCcGenericServices()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearCsharpNamespace_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearCsharpNamespace*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearCsharpNamespace" data-uid="Google.Protobuf.Reflection.FileOptions.ClearCsharpNamespace">
+  ClearCsharpNamespace()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCsharpNamespace()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearDeprecated_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearDeprecated*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearDeprecated" data-uid="Google.Protobuf.Reflection.FileOptions.ClearDeprecated">
+  ClearDeprecated()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDeprecated()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearExtension_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearExtension*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearExtension__1_Google_Protobuf_Extension_Google_Protobuf_Reflection_FileOptions___0__" data-uid="Google.Protobuf.Reflection.FileOptions.ClearExtension``1(Google.Protobuf.Extension{Google.Protobuf.Reflection.FileOptions,``0})">
+  ClearExtension&lt;TValue&gt;(Extension&lt;FileOptions, TValue&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearExtension&lt;TValue&gt;(Extension&lt;FileOptions, TValue&gt; extension)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <a class="xref" href="Google.Protobuf.Extension-2.html">Extension</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a>, TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearExtension_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearExtension*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearExtension__1_Google_Protobuf_RepeatedExtension_Google_Protobuf_Reflection_FileOptions___0__" data-uid="Google.Protobuf.Reflection.FileOptions.ClearExtension``1(Google.Protobuf.RepeatedExtension{Google.Protobuf.Reflection.FileOptions,``0})">
+  ClearExtension&lt;TValue&gt;(RepeatedExtension&lt;FileOptions, TValue&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearExtension&lt;TValue&gt;(RepeatedExtension&lt;FileOptions, TValue&gt; extension)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <a class="xref" href="Google.Protobuf.RepeatedExtension-2.html">RepeatedExtension</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a>, TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearGoPackage_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearGoPackage*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearGoPackage" data-uid="Google.Protobuf.Reflection.FileOptions.ClearGoPackage">
+  ClearGoPackage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGoPackage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearJavaGenerateEqualsAndHash_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearJavaGenerateEqualsAndHash*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearJavaGenerateEqualsAndHash" data-uid="Google.Protobuf.Reflection.FileOptions.ClearJavaGenerateEqualsAndHash">
+  ClearJavaGenerateEqualsAndHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void ClearJavaGenerateEqualsAndHash()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearJavaGenericServices_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearJavaGenericServices*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearJavaGenericServices" data-uid="Google.Protobuf.Reflection.FileOptions.ClearJavaGenericServices">
+  ClearJavaGenericServices()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearJavaGenericServices()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearJavaMultipleFiles_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearJavaMultipleFiles*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearJavaMultipleFiles" data-uid="Google.Protobuf.Reflection.FileOptions.ClearJavaMultipleFiles">
+  ClearJavaMultipleFiles()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearJavaMultipleFiles()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearJavaOuterClassname_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearJavaOuterClassname*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearJavaOuterClassname" data-uid="Google.Protobuf.Reflection.FileOptions.ClearJavaOuterClassname">
+  ClearJavaOuterClassname()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearJavaOuterClassname()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearJavaPackage_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearJavaPackage*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearJavaPackage" data-uid="Google.Protobuf.Reflection.FileOptions.ClearJavaPackage">
+  ClearJavaPackage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearJavaPackage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearJavaStringCheckUtf8_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearJavaStringCheckUtf8*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearJavaStringCheckUtf8" data-uid="Google.Protobuf.Reflection.FileOptions.ClearJavaStringCheckUtf8">
+  ClearJavaStringCheckUtf8()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearJavaStringCheckUtf8()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearObjcClassPrefix_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearObjcClassPrefix*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearObjcClassPrefix" data-uid="Google.Protobuf.Reflection.FileOptions.ClearObjcClassPrefix">
+  ClearObjcClassPrefix()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearObjcClassPrefix()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearOptimizeFor_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearOptimizeFor*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearOptimizeFor" data-uid="Google.Protobuf.Reflection.FileOptions.ClearOptimizeFor">
+  ClearOptimizeFor()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearOptimizeFor()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearPhpClassPrefix_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearPhpClassPrefix*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearPhpClassPrefix" data-uid="Google.Protobuf.Reflection.FileOptions.ClearPhpClassPrefix">
+  ClearPhpClassPrefix()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPhpClassPrefix()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearPhpGenericServices_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearPhpGenericServices*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearPhpGenericServices" data-uid="Google.Protobuf.Reflection.FileOptions.ClearPhpGenericServices">
+  ClearPhpGenericServices()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPhpGenericServices()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearPhpMetadataNamespace_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearPhpMetadataNamespace*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearPhpMetadataNamespace" data-uid="Google.Protobuf.Reflection.FileOptions.ClearPhpMetadataNamespace">
+  ClearPhpMetadataNamespace()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPhpMetadataNamespace()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearPhpNamespace_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearPhpNamespace*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearPhpNamespace" data-uid="Google.Protobuf.Reflection.FileOptions.ClearPhpNamespace">
+  ClearPhpNamespace()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPhpNamespace()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearPyGenericServices_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearPyGenericServices*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearPyGenericServices" data-uid="Google.Protobuf.Reflection.FileOptions.ClearPyGenericServices">
+  ClearPyGenericServices()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPyGenericServices()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearRubyPackage_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearRubyPackage*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearRubyPackage" data-uid="Google.Protobuf.Reflection.FileOptions.ClearRubyPackage">
+  ClearRubyPackage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRubyPackage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ClearSwiftPrefix_" data-uid="Google.Protobuf.Reflection.FileOptions.ClearSwiftPrefix*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ClearSwiftPrefix" data-uid="Google.Protobuf.Reflection.FileOptions.ClearSwiftPrefix">
+  ClearSwiftPrefix()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSwiftPrefix()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_Clone_" data-uid="Google.Protobuf.Reflection.FileOptions.Clone*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_Clone" data-uid="Google.Protobuf.Reflection.FileOptions.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileOptions Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_Equals_" data-uid="Google.Protobuf.Reflection.FileOptions.Equals*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_Equals_Google_Protobuf_Reflection_FileOptions_" data-uid="Google.Protobuf.Reflection.FileOptions.Equals(Google.Protobuf.Reflection.FileOptions)">
+  Equals(FileOptions)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(FileOptions other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_Equals_" data-uid="Google.Protobuf.Reflection.FileOptions.Equals*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_Equals_System_Object_" data-uid="Google.Protobuf.Reflection.FileOptions.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_GetExtension_" data-uid="Google.Protobuf.Reflection.FileOptions.GetExtension*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_GetExtension__1_Google_Protobuf_Extension_Google_Protobuf_Reflection_FileOptions___0__" data-uid="Google.Protobuf.Reflection.FileOptions.GetExtension``1(Google.Protobuf.Extension{Google.Protobuf.Reflection.FileOptions,``0})">
+  GetExtension&lt;TValue&gt;(Extension&lt;FileOptions, TValue&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TValue GetExtension&lt;TValue&gt;(Extension&lt;FileOptions, TValue&gt; extension)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <a class="xref" href="Google.Protobuf.Extension-2.html">Extension</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a>, TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TValue</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_GetExtension_" data-uid="Google.Protobuf.Reflection.FileOptions.GetExtension*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_GetExtension__1_Google_Protobuf_RepeatedExtension_Google_Protobuf_Reflection_FileOptions___0__" data-uid="Google.Protobuf.Reflection.FileOptions.GetExtension``1(Google.Protobuf.RepeatedExtension{Google.Protobuf.Reflection.FileOptions,``0})">
+  GetExtension&lt;TValue&gt;(RepeatedExtension&lt;FileOptions, TValue&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;TValue&gt; GetExtension&lt;TValue&gt;(RepeatedExtension&lt;FileOptions, TValue&gt; extension)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <a class="xref" href="Google.Protobuf.RepeatedExtension-2.html">RepeatedExtension</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a>, TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Collections.RepeatedField-1.html">RepeatedField</a>&lt;TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_GetHashCode_" data-uid="Google.Protobuf.Reflection.FileOptions.GetHashCode*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_GetHashCode" data-uid="Google.Protobuf.Reflection.FileOptions.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_GetOrInitializeExtension_" data-uid="Google.Protobuf.Reflection.FileOptions.GetOrInitializeExtension*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_GetOrInitializeExtension__1_Google_Protobuf_RepeatedExtension_Google_Protobuf_Reflection_FileOptions___0__" data-uid="Google.Protobuf.Reflection.FileOptions.GetOrInitializeExtension``1(Google.Protobuf.RepeatedExtension{Google.Protobuf.Reflection.FileOptions,``0})">
+  GetOrInitializeExtension&lt;TValue&gt;(RepeatedExtension&lt;FileOptions, TValue&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;TValue&gt; GetOrInitializeExtension&lt;TValue&gt;(RepeatedExtension&lt;FileOptions, TValue&gt; extension)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <a class="xref" href="Google.Protobuf.RepeatedExtension-2.html">RepeatedExtension</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a>, TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.Protobuf.Collections.RepeatedField-1.html">RepeatedField</a>&lt;TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_HasExtension_" data-uid="Google.Protobuf.Reflection.FileOptions.HasExtension*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_HasExtension__1_Google_Protobuf_Extension_Google_Protobuf_Reflection_FileOptions___0__" data-uid="Google.Protobuf.Reflection.FileOptions.HasExtension``1(Google.Protobuf.Extension{Google.Protobuf.Reflection.FileOptions,``0})">
+  HasExtension&lt;TValue&gt;(Extension&lt;FileOptions, TValue&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasExtension&lt;TValue&gt;(Extension&lt;FileOptions, TValue&gt; extension)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <a class="xref" href="Google.Protobuf.Extension-2.html">Extension</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a>, TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_MergeFrom_" data-uid="Google.Protobuf.Reflection.FileOptions.MergeFrom*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Google.Protobuf.Reflection.FileOptions.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <a class="xref" href="Google.Protobuf.CodedInputStream.html">CodedInputStream</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_MergeFrom_" data-uid="Google.Protobuf.Reflection.FileOptions.MergeFrom*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_MergeFrom_Google_Protobuf_Reflection_FileOptions_" data-uid="Google.Protobuf.Reflection.FileOptions.MergeFrom(Google.Protobuf.Reflection.FileOptions)">
+  MergeFrom(FileOptions)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(FileOptions other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_SetExtension_" data-uid="Google.Protobuf.Reflection.FileOptions.SetExtension*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_SetExtension__1_Google_Protobuf_Extension_Google_Protobuf_Reflection_FileOptions___0____0_" data-uid="Google.Protobuf.Reflection.FileOptions.SetExtension``1(Google.Protobuf.Extension{Google.Protobuf.Reflection.FileOptions,``0},``0)">
+  SetExtension&lt;TValue&gt;(Extension&lt;FileOptions, TValue&gt;, TValue)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetExtension&lt;TValue&gt;(Extension&lt;FileOptions, TValue&gt; extension, TValue value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <a class="xref" href="Google.Protobuf.Extension-2.html">Extension</a>&lt;<a class="xref" href="Google.Protobuf.Reflection.FileOptions.html">FileOptions</a>, TValue&gt;</dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">TValue</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_ToString_" data-uid="Google.Protobuf.Reflection.FileOptions.ToString*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_ToString" data-uid="Google.Protobuf.Reflection.FileOptions.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Google_Protobuf_Reflection_FileOptions_WriteTo_" data-uid="Google.Protobuf.Reflection.FileOptions.WriteTo*"></a>
+
+  <h3 id="Google_Protobuf_Reflection_FileOptions_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Google.Protobuf.Reflection.FileOptions.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <a class="xref" href="Google.Protobuf.CodedOutputStream.html">CodedOutputStream</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

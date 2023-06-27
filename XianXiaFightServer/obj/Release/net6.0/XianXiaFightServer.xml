@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XianXiaFightServer</name>
+    </assembly>
+    <members>
+        <member name="M:XianXiaFightGameServer.Controller.ClientServerController.ReadyFightAction(XianXiaFightGameServer.FightClientToServer.ClientServer,Proto.MainPack)">
+            <summary>
+            从总服务器那收到指令，开启战斗服务器实例
+            </summary>
+            <param name="localServer"></param>
+            <param name="localClient"></param>
+            <param name="mainPack"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XianXiaFightGameServer.Controller.LocalController.Login(XianXiaFightGameServer.Local.LocalServer,XianXiaFightGameServer.Local.LocalClient,Proto.MainPack)">
+            <summary>
+            本地战斗服务器登录，记录其进程ID，并给其分配任务
+            </summary>
+            <param name="localServer"></param>
+            <param name="localClient"></param>
+            <param name="mainPack">若此项不为空则将给目标回包</param>
+            <returns></returns>
+        </member>
+        <member name="M:XianXiaFightGameServer.Controller.LocalController.ReadyFightAction(XianXiaFightGameServer.Local.LocalServer,XianXiaFightGameServer.Local.LocalClient,Proto.MainPack)">
+            <summary>
+            战斗服务器收到端口号与初始化信息后连接成功，给战斗管理服务器返回此消息
+            </summary>
+            <param name="localServer"></param>
+            <param name="localClient"></param>
+            <param name="mainPack"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XianXiaFightGameServer.Controller.LocalController.BreakFight(XianXiaFightGameServer.Local.LocalServer,XianXiaFightGameServer.Local.LocalClient,Proto.MainPack)">
+            <summary>
+            战斗中断消息，正常中断，意外中断都走此
+            </summary>
+            <param name="localServer"></param>
+            <param name="localClient"></param>
+            <param name="mainPack">包中的ReturnCode告知了关闭类型，也就是战斗结果</param>
+            <returns></returns>
+        </member>
+        <member name="F:XianXiaFightGameServer.FightClientToServer.ClientServer.ip">
+            <summary>
+            记得写一个默认的地址
+            </summary>
+        </member>
+        <member name="M:XianXiaFightGameServer.FightClientToServer.ClientServer.DequeueFightData">
+            <summary>
+            pack里包含了：
+            word:玩家ID
+            HeroAndPosList 
+            IP
+            Port
+            ActionCode=ReadyFightAction
+            ReturnCode=null
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XianXiaFightGameServer.FightClientToServer.ClientServer.CloseSocket(System.Boolean)">
+            <summary>
+            关闭
+            </summary>
+        </member>
+        <member name="M:XianXiaFightGameServer.Local.LocalServer.StartAccept">
+            <summary>
+            与客户端建立连接
+            </summary>
+        </member>
+        <member name="M:XianXiaFightGameServer.Tool.CommondUtility.ValidateIPAddress(System.String)">
+            <summary>
+             判断IP地址
+            </summary>
+            <param name="ipAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XianXiaFightGameServer.Tool.JsonUtility.WriteJsonFile(System.String,System.String)">
+            <summary>
+            将序列化的json字符串内容写入Json文件，并且保存
+            </summary>
+            <param name="path">路径</param>
+            <param name="jsonConents">Json内容</param>
+        </member>
+        <member name="M:XianXiaFightGameServer.Tool.JsonUtility.GetJsonFile(System.String)">
+            <summary>
+            获取到本地的Json文件并且解析返回对应的json字符串
+            </summary>
+            <param name="filepath">文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:XianXiaFightGameServer.Tool.JsonUtility.ToJson(System.Object)">
+            <summary>
+            对象 转换为Json字符串
+            </summary>
+            <param name="tablelList">需要转换成Json的</param>
+            <returns></returns>
+        </member>
+        <member name="P:XianXiaFightGameServer.Tool.LocalMessage.Remsize">
+            <summary>
+            消息剩余长度
+            </summary>
+        </member>
+        <member name="P:XianXiaFightGameServer.Tool.Message.Remsize">
+            <summary>
+            消息剩余长度
+            </summary>
+        </member>
+        <member name="M:XianXiaFightGameServer.Tool.TimerSystem.AddTimer(System.Action,System.Single,System.Boolean,System.Int32,System.Action,System.Boolean)">
+            <summary>
+            添加计时器
+            </summary>
+            <param name="onFinished">完成后执行的委托</param>
+            <param name="delayTime">持续时间</param>
+            <param name="isLoop">是否循环</param>
+            <returns></returns>
+        </member>
+        <member name="T:Proto.FightProtoReflection">
+            <summary>Holder for reflection information generated from FightProto.proto</summary>
+        </member>
+        <member name="P:Proto.FightProtoReflection.Descriptor">
+            <summary>File descriptor for FightProto.proto</summary>
+        </member>
+        <member name="F:Proto.NGridPack.HeroIDFieldNumber">
+            <summary>Field number for the "heroID" field.</summary>
+        </member>
+        <member name="F:Proto.NGridPack.LevelIDFieldNumber">
+            <summary>Field number for the "levelID" field.</summary>
+        </member>
+        <member name="F:Proto.NGridPack.PosFieldNumber">
+            <summary>Field number for the "pos" field.</summary>
+        </member>
+        <member name="F:Proto.IPAndPortPack.IpFieldNumber">
+            <summary>Field number for the "ip" field.</summary>
+        </member>
+        <member name="F:Proto.IPAndPortPack.PortFieldNumber">
+            <summary>Field number for the "port" field.</summary>
+        </member>
+        <member name="F:Proto.HeroAndPosPack.ListFieldNumber">
+            <summary>Field number for the "list" field.</summary>
+        </member>
+        <member name="F:Proto.MainPack.ReturnCodeFieldNumber">
+            <summary>Field number for the "returnCode" field.</summary>
+        </member>
+        <member name="F:Proto.MainPack.ActionCodeFieldNumber">
+            <summary>Field number for the "actionCode" field.</summary>
+        </member>
+        <member name="F:Proto.MainPack.IpAndPortPackFieldNumber">
+            <summary>Field number for the "ipAndPortPack" field.</summary>
+        </member>
+        <member name="F:Proto.MainPack.WordFieldNumber">
+            <summary>Field number for the "word" field.</summary>
+        </member>
+        <member name="P:Proto.MainPack.Word">
+             <summary>
+            需要传一个字符串时可以使用这个，例如记录这是哪个玩家开启的战斗
+             </summary>
+        </member>
+        <member name="F:Proto.MainPack.InfoFieldNumber">
+            <summary>Field number for the "info" field.</summary>
+        </member>
+        <member name="P:Proto.MainPack.Info">
+             <summary>
+            战斗日志
+             </summary>
+        </member>
+        <member name="F:Proto.MainPack.HeroAndPosListFieldNumber">
+            <summary>Field number for the "heroAndPosList" field.</summary>
+        </member>
+        <member name="P:Proto.MainPack.HeroAndPosList">
+             <summary>
+            默认0是攻击方（玩家），1是防守方
+             </summary>
+        </member>
+    </members>
+</doc>

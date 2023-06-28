@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "StlzqEeijs5JjrxuQdcGT3sv6+O2ndCk6KgQ3HRI/YvZfV9KTbCv3qiMoqzCXozsqkdBaYJl+XR7Kv8M0bmbKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\KillProcess\\KillProcess\\KillProcess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.15\\microsoft.netcore.app.host.linux-x64.6.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

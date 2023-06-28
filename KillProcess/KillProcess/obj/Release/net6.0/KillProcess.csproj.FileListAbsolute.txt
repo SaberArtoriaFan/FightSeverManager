@@ -1,0 +1,17 @@
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\bin\Release\net6.0\KillProcess.exe
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\bin\Release\net6.0\KillProcess.deps.json
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\bin\Release\net6.0\KillProcess.runtimeconfig.json
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\bin\Release\net6.0\KillProcess.dll
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\bin\Release\net6.0\KillProcess.pdb
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\bin\Release\net6.0\Newtonsoft.Json.dll
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\obj\Release\net6.0\KillProcess.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\obj\Release\net6.0\KillProcess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\obj\Release\net6.0\KillProcess.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\obj\Release\net6.0\KillProcess.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\obj\Release\net6.0\KillProcess.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\obj\Release\net6.0\KillProcess.csproj.CopyComplete
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\obj\Release\net6.0\KillProcess.dll
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\obj\Release\net6.0\refint\KillProcess.dll
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\obj\Release\net6.0\KillProcess.pdb
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\obj\Release\net6.0\KillProcess.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\obj\Release\net6.0\ref\KillProcess.dll

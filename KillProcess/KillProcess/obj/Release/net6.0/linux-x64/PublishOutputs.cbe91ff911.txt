@@ -1,0 +1,6 @@
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\bin\Release\net6.0\publish\linux-x64\KillProcess
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\bin\Release\net6.0\publish\linux-x64\KillProcess.dll
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\bin\Release\net6.0\publish\linux-x64\KillProcess.deps.json
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\bin\Release\net6.0\publish\linux-x64\KillProcess.runtimeconfig.json
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\bin\Release\net6.0\publish\linux-x64\KillProcess.pdb
+C:\Users\Administrator\source\repos\KillProcess\KillProcess\bin\Release\net6.0\publish\linux-x64\Newtonsoft.Json.dll
